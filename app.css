@@ -1,0 +1,52 @@
+body {
+  background-color: #d5dce8;
+
+}
+
+h1 {
+  font-weight: 400;
+  color: rgb(198, 29, 29);
+  font-size: 50px;
+}
+.container {
+  border: 1px solid #bdc3c7;
+  box-shadow: 2px 2px 1px grey;
+  padding: 20px;
+  max-width: 1000px;
+  width: 90%;
+  margin: 20px auto;
+  font-family: 'Roboto', Source Sans Pro;
+  background-color: white;
+}
+.contact {
+  font-weight: 200;
+}
+
+.content {
+  margin: 20px;
+  clear: both;
+}
+
+.header {
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: rgb(198, 29, 29);
+  font-size: 1.1em;
+}
+
+.info {
+  line-height: 1.75;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.skill {
+  clear: both;
+}
+
+#links {
+  float: right;
+}
