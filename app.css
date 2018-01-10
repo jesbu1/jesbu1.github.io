@@ -1,4 +1,4 @@
-body {
+html body {
   background-color: #d5dce8;
 
 }
@@ -9,10 +9,7 @@ h1 {
   font-size: 50px;
 }
 
-h4 {
-  font-size: 1em;
-}
-.container {
+.content {
   border: 1px solid #bdc3c7;
   box-shadow: 2px 2px 1px grey;
   padding: 20px;
@@ -31,6 +28,7 @@ h4 {
   padding-top: 10px;
   font-size: 24px;
   clear: both
+  box-shadow: 2px 2px 1px grey;
 }
 .title {
   margin: 20px;
@@ -48,10 +46,10 @@ h4 {
   font-size: 0.7em;
 }
 .left {
-  float: left;
+  text-align: left;
 }
 .right {
-  float: right;
+  text-align: center;
 }
 .skill {
   clear: both;

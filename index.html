@@ -4,21 +4,38 @@
     <meta charset="utf-8">
     <title>Jesse Zhang (in progress website)</title>
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script
+    src="http://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <div class="title">
-        <h1><strong>JESSE</strong> ZHANG</h1>
-        <span id="links"> <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-        <a href="https://drive.google.com/open?id=0B0lUasrYgE0uZHByVE5FdVBzejQ"></a>Resume
-      <a href="contact.html">Contact</a></span>
-      </div>
-      <div class="content">
-        <span class="contact">Email: </span>jessezhang@berkeley.edu
-      </div>
-      <div class="content">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                <a href="index.html" class="navbar-brand"><strong>JESSE</strong> ZHANG</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-nav-demo">
+                <ul class="nav navbar-nav">
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://drive.google.com/open?id=0B0lUasrYgE0uZHByVE5FdVBzejQ">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container content">
         <div class="header">About Me:</div>
         <div class="info">
           <img src="pic.jpg"></img>
