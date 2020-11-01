@@ -5,12 +5,20 @@
     <link>https://jesbu1.github.io/author/sergey-levine/</link>
       <atom:link href="https://jesbu1.github.io/author/sergey-levine/index.xml" rel="self" type="application/rss+xml" />
     <description>Sergey Levine</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jesbu1.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Sergey Levine</title>
       <link>https://jesbu1.github.io/author/sergey-levine/</link>
     </image>
+    
+    <item>
+      <title>COG: Connecting New Skills to Past Experience with Offline Reinforcement Learning</title>
+      <link>https://jesbu1.github.io/publication/singh-2020-cog/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://jesbu1.github.io/publication/singh-2020-cog/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cautious Adaptation For Reinforcement Learning in Safety-Critical Settings</title>
@@ -23,7 +31,7 @@
     <item>
       <title>Replab: A reproducible low-cost arm benchmark platform for robotic learning</title>
       <link>https://jesbu1.github.io/publication/yang-2019-replab/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       <guid>https://jesbu1.github.io/publication/yang-2019-replab/</guid>
       <description></description>
     </item>
