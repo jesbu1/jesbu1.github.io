@@ -3,27 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jesbu1.github.io/talk/example-talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jesbu1.github.io/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jesbu1.github.io/event/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jesbu1.github.io/publication-type/2/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/albert-yu/</loc>
+    <loc></loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/authors/</loc>
+    <loc></loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/avi-singh/</loc>
-    <lastmod>2020-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jesbu1.github.io/author/aviral-kumar/</loc>
+    <loc></loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,17 +48,12 @@
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/jesse-zhang/</loc>
+    <loc></loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/</loc>
-    <lastmod>2020-11-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jesbu1.github.io/author/jonathan-yang/</loc>
+    <loc></loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,7 +68,7 @@
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/sergey-levine/</loc>
+    <loc></loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/brian-cheung/</loc>
+    <loc></loc>
     <lastmod>2020-07-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,12 +88,12 @@
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/chelsea-finn/</loc>
+    <loc></loc>
     <lastmod>2020-07-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/dinesh-jayaraman/</loc>
+    <loc></loc>
     <lastmod>2020-07-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,22 +103,22 @@
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/eleftherios-avramidis/</loc>
+    <loc></loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/jonathan-fuerst/</loc>
+    <loc></loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/kalyanaraman-shankari/</loc>
+    <loc></loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/mauricio-fadel-argerich/</loc>
+    <loc></loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,27 +128,27 @@
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/andy-yan/</loc>
+    <loc></loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/john-leyden/</loc>
+    <loc></loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/john-sullivan/</loc>
+    <loc></loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/kyle-tse/</loc>
+    <loc></loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/randy-h-katz/</loc>
+    <loc></loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -148,12 +158,12 @@
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/vasudev-venkatesh-pb/</loc>
+    <loc></loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/brian-yang/</loc>
+    <loc></loc>
     <lastmod>2019-05-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,12 +173,22 @@
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/vitchyr-pong/</loc>
+    <loc></loc>
     <lastmod>2019-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/daiyaan-arfeen/</loc>
+    <loc>https://jesbu1.github.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jesbu1.github.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -178,23 +198,83 @@
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/categories/</loc>
+    <loc>https://jesbu1.github.io/news/</loc>
+    <lastmod>2017-12-01T00:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/author/jesse-zhang/</loc>
+    <loc>https://jesbu1.github.io/tag/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/post/</loc>
+    <loc>https://jesbu1.github.io/project/example/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jesbu1.github.io/talk/</loc>
+    <loc>https://jesbu1.github.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jesbu1.github.io/tags/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jesbu1.github.io/tag/academic/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jesbu1.github.io/categories/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jesbu1.github.io/category/demo/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jesbu1.github.io/post/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jesbu1.github.io/post/getting-started/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jesbu1.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jesbu1.github.io/category/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jesbu1.github.io/publication/example/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
