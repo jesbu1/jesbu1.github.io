@@ -5,7 +5,7 @@
     <link>https://jesbu1.github.io/publication/</link>
       <atom:link href="https://jesbu1.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jesbu1.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Hierarchical Reinforcement Learning by Discovering Intrinsic Options</title>
-      <link>https://jesbu1.github.io/publication/zhang-2021-hierarchical/</link>
-      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://jesbu1.github.io/publication/zhang-2021-hierarchical/</guid>
+      <title>Minimum Description Length Skills for Accelerated Reinforcement Learning</title>
+      <link>https://jesbu1.github.io/publication/zhang-2021-minimum/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://jesbu1.github.io/publication/zhang-2021-minimum/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Minimum Description Length Skills for Accelerated Reinforcement Learning</title>
-      <link>https://jesbu1.github.io/publication/zhang-2021-minimum/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://jesbu1.github.io/publication/zhang-2021-minimum/</guid>
+      <title>Hierarchical Reinforcement Learning by Discovering Intrinsic Options</title>
+      <link>https://jesbu1.github.io/publication/zhang-2021-hierarchical/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://jesbu1.github.io/publication/zhang-2021-hierarchical/</guid>
       <description></description>
     </item>
     
