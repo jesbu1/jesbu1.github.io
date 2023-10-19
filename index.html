@@ -61,8 +61,11 @@
           var rendered = Handlebars.compile(template)(papers);
           document.getElementById('mustache_target').innerHTML = rendered;
           pubs_off_start()
+          console.log("loading papers.yaml done!")
         }
         catch (err) {
+          console.log("loading papers failed!")
+          console.log(err);
         }
       });
     }
