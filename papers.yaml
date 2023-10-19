@@ -504,7 +504,6 @@ papers:
       reaching tasks on our REPLAB platform.
     img2: false
     nogif: true
-    highlighted: true
   - name: gan
     title: 
       name: Unsupervised Projection Networks for Generative Adversarial Networks
