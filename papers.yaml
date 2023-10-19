@@ -1,0 +1,410 @@
+papers:
+  - name: tail 
+    title:
+      name: "TAIL: Task-Specific Adapters for Imitation Learning with Large Pretrained Models"
+    authors:
+      - name: Zuxin Liu
+        href: https://zuxin.me/
+      - me: true
+      - name: Kavosh Asadi
+        href: https://www.linkedin.com/in/kavosh-asadi-029a1780
+      - name: Yao Liu
+        href: http://www.yao-liu.com/
+      - name: Ding Zhao
+        href: https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html
+      - name: Shoham Sabach
+        href: https://cris.technion.ac.il/en/persons/shoham-sabach
+      - name: Rasool Fakoor
+        href: https://sites.google.com/site/rfakoor
+    conference:
+      name: "in submission, 2024 <br> ICLR"
+      year: 2024
+    links:
+      - name: arXiv
+        href: https://arxiv.org/abs/2310.05905
+    description: "We propose TAIL, a method of integrating parameter-efficient fine-tuning techniques \
+                  from natural language processing and computer vision domains into large decision-making models for sample-efficient continual imitation learning. \
+                  We compare multiple adaptation techniques implemented in TAIL and our extensive experiments reveal \
+                  that TAIL with LoRA can achieve the best post-adaptation performance with only 1\% of the trainable parameters of full fine-tuning, while avoiding catastrophic forgetting and preserving adaptation plasticity in continual learning settings."
+    highlighted: false
+    nogif: true
+
+  - name: roboclip
+    title:
+      name: "RoboCLIP: One Demonstration is Enough to Learn Robot Policies"
+    authors:
+      - name: Sumedh Sontakke
+        href: https://sumedh7.github.io/
+      - me: true
+      - name: Sébastien M. R. Arnold
+        href: https://sebarnold.net/
+      - name: Karl Pertsch
+        href: https://kpertsch.github.io/
+      - name: Erdem Bıyık
+        href: https://ebiyik.github.io/
+      - name: Dorsa Sadigh
+        href: https://dorsa.fyi/
+      - name: Chelsea Finn
+        href: https://ai.stanford.edu/~cbfinn/
+      - name: Laurent Itti
+        href: http://ilab.usc.edu/itti/
+    conference:
+      name: "NeurIPS 2023"
+      year: 2023
+    links:
+      - name: arXiv
+        href: https://arxiv.org/abs/2310.07899
+      - name: website
+        href: https://sites.google.com/view/roboclip/home
+      - name: openreview
+        href: https://openreview.net/forum?id=DVlawv2rSI
+    description: "We propose a method of specifying tasks for robots to learn by simply watching a single video demonstration or providing a \
+                  text description of the task. We utilize VLMs to reward robots based on the given demonstration or description, and show that our method can learn a variety of tasks from a single task specification."
+    highlighted: true
+
+  - name: boss
+    title:
+      name: "Bootstrap Your Own Skills: Learning to Solve New Tasks with LLM Guidance"
+    authors:
+      - me: true
+      - name: Jiahui Zhang
+        href: https://jiahui-3205.github.io/
+      - name: Karl Pertsch
+        href: https://kpertsch.github.io/
+      - name: Ziyi Liu
+        href: https://www.linkedin.com/in/ziyi-liu-318616186/
+      - name: Xiang Ren
+        href: https://shanzhenren.github.io/
+      - name: Minsuk Chang
+        href: https://minsukchang.com/
+      - name: Shao-Hua Sun
+        href: https://shaohua0116.github.io/
+      - name: Joseph J. Lim
+        href: https://clvrai.com/web_lim/
+    conference:
+      name: '<oral>Oral presentation (top 6.6%)</oral> at CoRL 2023 <br>
+            <oral>Oral presentation</oral> at SoCal Robotics 2023 <br>
+            <oral>Spotlight talk</oral> at RSS Workshop on <a href='https://sites.google.com/andrew.cmu.edu/rss-2023-articulate-robots/home'>Articulate Robots</ar>'
+      year: 2023
+    links:
+      - name: arXiv
+        href: https://arxiv.org/abs/2310.10021
+      - name: openreview
+        href: https://openreview.net/forum?id=a0mFRgadGO
+      - name: website
+        href: https://clvrai.com/boss
+      - name: code
+        href: https://github.com/clvrai/boss
+    description: "Our approach BOSS (BOotStrapping your own Skills) learns to accomplish new tasks by performing "skill bootstrapping," where an agent with a set of primitive skills interacts with the environment to practice new skills without receiving reward feedback for tasks outside of the initial skill set. This bootstrapping phase is guided by large language models that inform the agent of meaningful skills to chain together. Through this process, BOSS builds a wide range of complex and useful behaviors from a basic set of primitive skills."
+    highlighted: true
+
+- name: sprint
+  title: 
+    name: "SPRINT: Scalable Policy Pre-Training via Language Instruction Relabeling"
+    link: https://clvrai.com/sprint
+  authors:
+    - me: true
+    - name: Karl Pertsch
+      href: https://kpertsch.github.io/
+    - name: Jiahui Zhang
+      href: https://jiahui-3205.github.io/
+    - name: Joseph J. Lim
+      href: https://clvrai.com/web_lim/
+  conference:
+    name: 'PrePrint, 2023 <br>
+           <oral>Spotlight</oral> at CoRL 2022 LangRob Workshop'
+    year: 2023 
+  links:
+    - name: arXiv
+      href: https://arxiv.org/abs/2306.11886
+    - name: website
+      href: https://clvrai.com/sprint
+  description: "We propose SPRINT, a scalable offline policy pre-training approach which substantially reduces the human effort needed for pre-training a diverse set of skills through relabling instructions with LLMs and an offline RL chaining objective."
+  highlighted: true
+
+- name: ml_vg
+  title: 
+    name: "Machine Learning on Visibility Graph Features Discriminates the Cognitive Event-Related Potentials of Patients with Early Alzheimer's Disease from Healthy Aging"
+    link: https://www.mdpi.com/2076-3425/13/5/770
+  authors:
+  - me: true
+  - name: Jiangyi Xia
+    href: https://scholar.google.com/citations?user=ekgyVhUAAAAJ&hl=en
+  - name: Xin Liu
+    href: https://xinliu.engineering.ucdavis.edu/
+  - name: John Olichney
+    href: https://olichneylab.faculty.ucdavis.edu/
+  conference:
+    name: MDPI Brain Sciences Journal, 2023
+    year: 2023
+  links:
+    - name: paper
+      link: https://www.mdpi.com/2076-3425/13/5/770
+  description: "We present a framework for electroencephalography (EEG)-based classification between patients with Alzheimer’s Disease (AD) and robust normal elderly (RNE) via a graph theory approach using visibility graphs (VGs). \
+                Twelve graph features were tested for differences between the AD and RNE groups, and t-tests employed for feature selection. The selected features were then tested for classification using traditional machine learning and deep learning algorithms, achieving a classification accuracy of 100% with linear and non-linear classifiers. We further demonstrated that the same features can be generalized to the classification of mild cognitive impairment (MCI) converters, i.e., prodromal AD, against RNE with a maximum accuracy of 92.5%."
+  nogif: true
+  img2: false
+
+- name: hnps
+  title:
+    name: Hierarchical Neural Program Synthesis
+    href: https://thoughtp0lice.github.io/hnps_web/
+  authors:
+    - name: Linghan Zhong
+      href: https://www.linkedin.com/in/linghan-zhong-b8796a187
+    - name: Ryan Lindeborg
+      href: https://www.ryanlindeborg.com/about/
+    - me: true
+    - name: Joseph J. Lim
+      href: https://clvrai.com/web_lim/
+    - name: Shao-Hua Sun
+      href: https://shaohua0116.github.io/
+  conference:
+    name: Preprint, 2023
+    year: 2023
+  links:
+    - name: arXiv
+      href: https://arxiv.org/abs/2303.06018
+    - name: website
+      href: https://thoughtp0lice.github.io/hnps_web/
+  description: "Most existing program synthesis methods are designed to synthesize programs from scratch, generating a program token by token, line by line. This fundamentally prevents these methods from scaling up to synthesize programs that are longer or more complex. In this work, we present a scalable program synthesis framework that instead synthesizes a program by hierarchically composing programs. The experimental results demonstrate that the proposed framework can synthesize programs that are significantly longer and more complex than the programs considered in prior program synthesis works."
+  nogif: true
+  img2: false
+
+- name: leaps
+  title: 
+    name: Learning to Synthesize Programs as Interpretable and Generalizable Policies
+    href: https://clvrai.github.io/leaps/
+  authors:
+    - name: Dweep Trivedi
+      href: https://dweeptrivedi.github.io/
+      star: true
+    - me: true
+      star: true
+    - name: Shao-Hua Sun
+      href: https://shaohua0116.github.io/
+    - name: Joseph J. Lim
+      href: https://clvrai.com/web_lim/
+  conference:
+    name: "NeurIPS 2021 <br>
+          Invited talk at AIPlans Workshop at NeurIPS 2021"
+    year: 2021
+  links:
+    - name: arXiv
+      href: https://arxiv.org/abs/2108.13643
+    - name: website
+      href: https://clvrai.github.io/leaps/
+    - name: code
+      href: https://github.com/clvrai/leaps
+    - name: slides
+      href: https://shaohua0116.github.io/images/slides/leaps.pdf
+    - name: video
+      href: https://nips.cc/virtual/2021/poster/26528
+  description: We present a framework that learns to synthesize a program, detailing the procedure to solve a task in a flexible and expressive manner, solely from reward signals. To alleviate the difficulty of learning to compose programs to induce the desired agent behavior from scratch, we propose to learn a program embedding space that continuously parameterizes diverse behaviors in an unsupervised manner and then search over the learned program embedding space to yield a program that maximizes the return for a given task.
+  nogif: true
+  img2: false
+
+- name: mdl
+  title:
+    name: Minimum Description Length Skills for Accelerated Reinforcement Learning
+  authors:
+    - me: true
+      star: true
+    - name: Karl Pertsch
+      href: https://kpertsch.github.io/
+    - name: Jiefan Yang
+      href: https://www.linkedin.com/in/jiefan-yang-a37a35179
+    - name: Joseph J. Lim
+      href: https://clvrai.com/web_lim/
+  conference:
+    name: "Self-Supervision for Reinforcement Learning Workshop at ICLR 2021"
+    year: 2021
+  links:
+    - name: openreview
+      href: https://openreview.net/forum?id=r4XxtrIo1m9
+  description: "We propose a principled, unsupervised objective for skill discovery from large, offline datasets based on the Minimum Description Length principle: we show that a “code book” of skills that can maximally compress the training data can be reused to efficiently learn new tasks. By minimizing description length we strike an optimal balance between the number of extracted skills and their complexity. We show that our approach outperforms methods that heuristically define skills on a complex, long-horizon maze navigation task."
+  nogif: true
+  img2: false
+
+- name: hidio
+  title:
+    name: Hierarchical Reinforcement Learning by Discovering Intrinsic Options
+  authors:
+    - me: true
+      star: true
+    - name: Haonan yu
+      href: https://hnyu.github.io/
+      star: true
+    - name: Wei Xu
+      href: https://scholar.google.com/citations?user=Gxz1fqwAAAAJ&hl=en
+  conference:
+    name: "ICLR 2021" 
+    year: 2021
+  links:
+    - name: arxiv
+      href: https://arxiv.org/abs/2101.06521
+    - name: openreview
+      href: https://openreview.net/forum?id=r-gPPHEjpmw
+    - name: code
+      href: https://github.com/jesbu1/hidio
+    - name: slides
+      href: https://iclr.cc/media/Slides/iclr/2021/virtual%2806-16-00%29-06-16-00UTC-2805-hierarchical_re.pdf
+    - name: video
+      href: https://iclr.cc/virtual/2021/poster/2805
+  description: We propose a hierarchical reinforcement learning method, HIDIO, that can learn task-agnostic options in a self-supervised manner while jointly learning to utilize them to solve sparse-reward tasks. Unlike current hierarchical RL approaches that tend to formulate goal-reaching low-level tasks or pre-define ad hoc lower-level policies, HIDIO encourages lower-level option learning that is independent of the task at hand, requiring few assumptions or little knowledge about the task structure. These options are learned through an intrinsic entropy minimization objective conditioned on the option sub-trajectories. The learned options are diverse and task-agnostic. In experiments on sparse-reward robotic manipulation and navigation tasks, HIDIO achieves higher success rates with greater sample efficiency than regular RL baselines and two state-of-the-art hierarchical RL methods.
+  nogif: true
+  img2: false
+
+- name: cog
+  title: 
+    name: Connecting New Skills to Past Experience with Offline Reinforcement Learning 
+    href:  https://sites.google.com/view/cog-rl
+  authors: 
+    - name: Avi Singh
+      href: https://www.avisingh.org/
+    - name: Albert Yu
+      href: https://www.cs.utexas.edu/users/ai-lab/people-view.php?PID=552
+    - name: Jonathan Yanga
+      href: https://www.linkedin.com/in/jonathan-yang-7b5542124
+    - me: true
+    - name: Aviral Kumar
+      href: https://aviralkumar2907.github.io/
+    - name: Sergey Levine
+      href: https://people.eecs.berkeley.edu/~svlevine/
+  conference:
+    name: "CoRL 2020"
+    year: 2020
+  links:
+    - name: arxiv
+      href: https://arxiv.org/abs/2010.14500
+    - name: code
+      href: https://github.com/avisingh599/cog
+    - name: website
+      href: https://sites.google.com/view/cog-rl
+    - name: video
+      href: https://www.youtube.com/watch?v=6sb31PtpI_s 
+  description: "In this paper, we propose an approach to incorporate a large amount of prior data, either from previously solved tasks or from unsupervised or undirected environment interaction, to extend and generalize new skills. Our hardest experimental setting involves composing four vision-based robotic skills in a row:  picking, placing, drawer opening, and grasping, where a +1/0 sparse re-ward is provided only on task completion." 
+  highlight: true
+
+- name: carl
+  title:
+    name: Cautious Adaptation For Reinforcement Learning in Safety-Critical Settings
+    href: https://sites.google.com/berkeley.edu/carl
+  authors: 
+    - me: true
+    - name: Brian Cheung
+      href: https://scholar.google.com/citations?user=7N-ethYAAAAJ&hl=en
+    - name: Chelsea Finn
+      href: https://ai.stanford.edu/~cbfinn/
+    - name: Sergey Levine
+      href: https://people.eecs.berkeley.edu/~svlevine/
+    - name: Dinesh Jayaraman 
+      href: https://www.seas.upenn.edu/~dineshj/
+  conference:
+    name: ICML 2020
+    year: 2020
+  links:
+    - name: arxiv 
+      href: https://arxiv.org/abs/2008.06622
+    - name: website
+      href: https://sites.google.com/berkeley.edu/carl
+    - name: code
+      href: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fjesbu1%2Fcarl&sa=D&sntz=1&usg=AOvVaw0AtI93iC0ZIcx5EEHjAzHm
+    - name: video
+      href: https://icml.cc/virtual/2020/poster/6633
+    - name: slides
+      href: https://icml.cc/media/icml-2020/Slides/6633.pdf
+  description: 'We propose a “safety-critical adaptation” task setting: an agent first trains in non-safety-critical “source” environments such as in a simulator, before it adapts to the target environment where failures carry heavy costs. \
+                We propose a solution approach, CARL, that builds on the intuition that prior experience in diverse environments equips an agent to estimate risk, which in turn enables relative safety through risk-averse, cautious adaptation. \
+                 CARL first employs model-based RL to train a probabilistic model to capture uncertainty across varied source environments. \
+                 Then, when exploring a new safety-critical environment, the CARL agent plans to avoid actions that could lead to catastrophic states. \
+                 CARL successfully acquires cautious exploration behaviors, yielding higher rewards with fewer failures than strong RL adaptation baselines.'
+  img2: false
+  nogif: true
+
+- name: mobilitynet
+  title:
+    name: "MobilityNet: Towards A Public Dataset For Multi-Modal Mobility Research"
+  authors:
+    - name: Kalyanaraman Shankari
+      href: https://www.linkedin.com/in/kshankari
+    - name: Jonathan Fuerst
+      href: https://www.jofu.org/
+    - name: Mauricio Fadel Argerich
+      href: https://de.linkedin.com/in/maufadel?trk=public_profile_browsemap
+    - name: Eleftherios Avramidis
+    - me: true
+  conference:
+    name: Climate Change AI Workshop at ICLR 2020 
+    year: 2020
+  links:
+    - name: paper
+      href: https://www.climatechange.ai/papers/iclr2020/15/paper.pdf
+    - name: website/video/slides
+      href: https://www.climatechange.ai/papers/iclr2020/15
+  description: 'Influencing transportation demand can significantly reduce CO2 emissions. Individual user mobility models are key to influencing demand at the personal and structural levels. Constructing such models is a challenging task that depends on a number of interdependent steps. Progress on this task is hamstrung by the lack of high quality public datasets. We introduce MobilityNet: the first step towards a common ground for multi-modal mobility research. MobilityNet solves the holistic evaluation, privacy preservation and fine grained ground truth problems through the use of artificial trips, control phones, and repeated travel. It currently includes 1080 hours of data from both Android and iOS, representing 16 different travel contexts and 4 different sensing configurations.'
+  img2: false 
+  nogif: true
+
+- name: tripaware
+  title:
+    name: "TripAware: Emotional and Informational Approaches to Encourage Sustainable Transportation via Mobile Applications"
+  authors:
+    - me: true
+    - name: John Sullivan
+    - name: Vasudev Venkatesh PB
+    - name: Kyle Tse
+    - name: Andy Yan
+    - name: John Leyden
+    - name: Kalyanaraman Shankari
+    - name: Randy H Katz
+  conference: 
+    name: ACM BuildSys 2019 
+    year: 2019
+  links:
+    - name: paper
+      href: https://dl.acm.org/doi/10.1145/3360322.3360871
+  description: 'We perform the first quantitative comparison of behavior change strategies in the transportation behavior domain. Since this is a pilot with a limited recruitment budget, we design a Randomized Controlled Trial (RCT) using an open source platform. We assign 41 users to three mobile applications: Emotion, Information, Control. The RCT allows us to draw statistically valid inferences that can suggest future avenues for larger-scale studies. We found that Emotion resulted in greater engagement with the application (p=0.006, 0.035, 0.031, 0.040) while Information improved the sustainability of travel behavior (p = 0.043). These exploratory statistical results can motivate the design of future studies to further explore combinations of these approaches for sustainable transportation behavior.'
+  img2: false 
+  nogif: true
+
+- name: replab
+  title:
+    name: "Replab: A reproducible low-cost arm benchmark platform for robotic learning"
+  authors:
+    - name: Brian Yang
+      href: https://byang.org/
+    - me: true
+    - name: Vitchyr Pong
+      href: https://vitchyr.github.io/
+    - name: Dinesh Jayaraman 
+      href: https://www.seas.upenn.edu/~dineshj/
+    - name: Sergey Levine
+      href: https://people.eecs.berkeley.edu/~svlevine/
+  conference: 
+    name: ICRA 2019
+    year: 2019
+  links:
+    - name: arXiv
+      href: https://arxiv.org/abs/1905.07447
+    - name: website
+      href: https://sites.google.com/view/replab/
+  description: REPLAB is a reproducible and self-contained hardware stack (robot arm, camera, and workspace) that costs about 2000 USD, occupies a cuboid of size 70x40x60 cm, and permits full assembly within a few hours. Through this low-cost, compact design, REPLAB aims to drive wide participation by lowering the barrier to entry into robotics and to enable easy scaling to many robots. We envision REPLAB as a framework for reproducible research across manipulation tasks, and as a step in this direction, we define a template for a grasping benchmark consisting of a task definition, evaluation protocol, performance measures, and a dataset of 92k grasp attempts. We implement, evaluate, and analyze several previously proposed grasping approaches to establish baselines for this benchmark. Finally, we also implement and evaluate a deep reinforcement learning approach for 3D reaching tasks on our REPLAB platform.  
+  img2: false 
+  nogif: true 
+
+- name: gan
+authors:
+  - name: Daiyaan Arfeen
+    href: https://www.linkedin.com/in/daiyaanarfeen
+    star: true
+  - me: true
+    star: true
+title: Unsupervised Projection Networks for Generative Adversarial Networks
+conference: 
+  name: ICCV 2019 Sensing, Understanding, and Synthesizing Humans Workshop
+  year: 2019
+description: We propose the use of unsupervised learning to train projection networks that project onto the latent space of an already trained generator. We apply our method to a trained StyleGAN, and use our projection network to perform image super-resolution and clustering of images into semantically identifiable groups.
+img2: false 
+nogif: true
+

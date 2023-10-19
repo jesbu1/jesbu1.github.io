@@ -1,0 +1,301 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/profile.jpeg">
+  <title>Jesse Zhang. Personal Webpage</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+
+  <!-- Gif toggles -->
+  <script>
+    function gif_start(image, gif) {
+      document.getElementById(image).style.opacity = "1";
+      document.getElementById(gif).style.opacity = "0";
+    }
+    function gif_stop(image, gif) {
+      document.getElementById(image).style.opacity = "0";
+      document.getElementById(gif).style.opacity = "1";
+    }
+  </script>
+
+  <!-- Selected publications toggle -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script type=" text/javascript">
+    function pubs_off_start() {
+      $('.hiddenPubs').hide();
+      var e = document.getElementById('sel_pub_button');
+      e.classList.add("toggled");
+      var e = document.getElementById('all_pub_button');
+      e.classList.remove("toggled");
+    }
+    function pubs_off() {
+      $('.hiddenPubs').slideUp();
+      var e = document.getElementById('sel_pub_button');
+      e.classList.add("toggled");
+      var e = document.getElementById('all_pub_button');
+      e.classList.remove("toggled");
+    }
+    function pubs_on() {
+      $('.hiddenPubs').slideDown();
+      var e = document.getElementById('all_pub_button');
+      e.classList.add("toggled");
+      var e = document.getElementById('sel_pub_button');
+      e.classList.remove("toggled");
+    };
+  </script>
+
+  <!-- Dynamic generation -->
+  <script src="https://unpkg.com/mustache@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script type="text/javascript" src="data/js-yaml.min.js"></script>
+  <script type="text/javascript">
+    function renderHello() {
+      var template = document.getElementById('template').innerHTML;
+      $.get("./papers.yaml").done(function (data) {
+        try {
+          papers = jsyaml.load(data)
+          var rendered = Handlebars.compile(template)(papers);
+          document.getElementById('mustache_target').innerHTML = rendered;
+          pubs_off_start()
+        }
+        catch (err) {
+        }
+      });
+    }
+  </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- Dark mode -->
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+  <script>
+    var options = {
+      autoMatchOsTheme: false // default: true
+    }
+
+    const darkmode = new Darkmode(options);
+    darkmode.showWidget();
+  </script>
+  <a name="top"></a>
+  <!-- body -->
+  <div style="max-width:900; width:100%; margin:0 auto">
+    <!-- Intro & photo -->
+    <div class="table-like" style="width:100%; text-align:left;">
+      <div style="flex: 1 0 300px;margin-right:50px">
+        <p align="center">
+          <name>Jesse Zhang</name>
+        </p>
+        <p align="center" style="font-family:'Courier New">
+          jessez at usc dot edu
+        </p>
+        <p>Hi! I am a fourth-year PhD student at USC, advised by Professors <a href="https://jessethomason.com/"
+            target="_blank" rel="noopener">Jesse Thomason</a> and <a href="https://ebiyik.github.io/" target="_blank"
+            rel="noopener">Erdem Biyik</a> at USC
+          and <a href="https://viterbi-web.usc.edu/~limjj/" target="_blank" rel="noopener">Joseph J. Lim</a> at KAIST on
+          deep reinforcement learning for robotics. I completed my undergrad at UC Berkeley,
+          where I worked with Professors <a href="http://people.eecs.berkeley.edu/~svlevine/" target="_blank"
+            rel="noopener">Sergey Levine</a> and <a href="https://www.seas.upenn.edu/~dineshj/" target="_blank"
+            rel="noopener">Dinesh Jayaraman</a>. I have interned at AWS Lablets in <a
+            href="https://sites.google.com/site/rfakoor" target="_blank" rel="noopener">Rasool Fakoor</a>'s team, <a
+            href="https://clova.ai/" target="_blank" rel="noopener">NAVER AI Labs</a> and <a
+            href="https://en.horizon.cc/" target="_blank" rel="noopener">Horizon
+            Robotics</a>.</p>
+        <p>I am interested in improving generalization and sample-efficiency of reinforcement learning algorithms by
+          injecting inductive biases (e.g., programs), incorporating large offline datasets (e.g., through offline RL),
+          and guiding agents with external knowledge (e.g., large language models).</p>
+        </p>
+        <p align=center>
+          <a href="files/CV.pdf">CV</a> &nbsp/&nbsp
+          <a href="https://github.com/jesbu1">GitHub</a> &nbsp/&nbsp
+          <a href="https://twitter.com/Jesse_Y_Zhang/">Twitter</a> &nbsp/&nbsp
+          <a href="https://scholar.google.com/citations?user=fSXCOfEAAAAJ&hl=en">Google Scholar</a>
+          <!-- The Modal -->
+        </p>
+      </div>
+
+      <div style="flex: 0 0 250px;">
+        <img src="images/profile.jpeg" style="width:100%">
+      </div>
+    </div>
+
+    <!--<script>
+      // Get the modal
+      var modal = document.getElementById('popup-img');
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg');
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = "images/Wechat.jpeg";
+        // modalImg.alt = this.alt;
+        // captionText.innerHTML = this.alt;
+      }
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+    </script> -->
+
+    <!-- News -->
+    <div style="width:100%; text-align:left;">
+      <heading>News</heading>
+    </div>
+
+    <div style="width:100%; text-align:left;margin-top:10; ">
+      <li><b>10/23</b> BOSS is accepted as an oral at CoRL 2023 </li>
+      <li><b>05/23</b> Started an internship at AWS research this summer </p>
+      <li><b>11/22</b> SPRINT is accepted as a spotlight talk at CoRL 2022 LangRob Workshop </li>
+      <li><b>04/22</b> I have received the ICLR 2022 highlighted reviewer award (top 8%) </li>
+      <li><b>12/21</b> Gave a talk at the AIPlans Workshop at NeurIPS 2021 </li>
+      <li><b>10/21</b>I have received the NeurIPS outstanding reviewer award (top 8%)</li>
+    </div>
+    <a name="re"></a>
+    <div style="width:100%; text-align:left; margin-top:20; ">
+      <heading>Research</heading>
+      <a style="font-size: 17px; color: black;">(</a><a style="font-size:17px" id='sel_pub_button'
+        href="javascript:pubs_off()">Highlighted</a> <a style="font-size: 17px; color: black;">/</a>
+      <a style="font-size:17px" id='all_pub_button' href="javascript:pubs_on()">All</a><a
+        style="font-size: 17px; color: black;">)</a>
+      <br>
+      (* indicates equal contribution, <sup><span>&#8224;</span></sup> indicates equal advising)
+    </div>
+
+    <div id="mustache_target">Loading...</div>
+    <script id="template" type="text/x-handlebars-template">
+      {{#papers}}
+      <div style="width:100%;margin-left:0px;margin-right:0px;margin-top:10px; flex-wrap:wrap-reverse; " class="table-like {{#unless highlighted}}hiddenPubs{{/unless}}" onmouseout="gif_stop('{{name}}_image', '{{name}}_gif')" onmouseover="gif_start('{{name}}_image', '{{name}}_gif')">
+        <div class="zero" style="flex: 1 0 270px;margin-top:0px;margin-right:20px;max-width:270px;">
+          <div class="one">
+            {{#unless nogif}}
+            <div class="two" id='{{name}}_image'>
+              <img src='images/{{name}}_after.gif' class="paper_img">
+            </div>
+            {{/unless}}
+            {{#if img2}}
+              <div class="two" id='{{name}}_image'>
+                <img src='images/{{name}}_after.png' class="paper_img">
+              </div>
+            {{/if}}
+            <img id='{{name}}_gif' src='images/{{name}}_before.png' class="paper_img">
+          </div>
+            <!-- {{#unless nogif}}
+            <p style="text-align: center;margin-top:0.4em;margin-bottom:0em;color:Gray;"><i> Hover/tap to play the gif</i></p>
+            {{/unless}} -->
+        </div>
+        <div style="flex: 10000 1 400px;margin-bottom:10px;" valign="top">
+          <p class="paper_title" style="margin-top:0em;">{{#if title.link}}<a href={{title.link}}>{{else}}<a>{{/if}}<papertitle>{{title.name}}</papertitle></a>
+          <br>
+          {{#authors}}
+          {{#if me}}
+            <strong><u>Zichen Zhang</u></strong>{{#if star}}*{{/if}}{{#unless @last}}, {{/unless}}
+          {{else}}
+            {{#if href}}
+              <a class="black_link" href={{href}}>{{name}}</a>{{#if star}}*{{/if}}{{#if star2}}<sup>&#8224;</sup> {{/if}}{{#unless @last}}, {{/unless}}
+            {{else}}
+            <a class="black_link">{{name}}</a>{{#if star}}*{{/if}}{{#if star2}}<sup>&#8224;</sup>{{/if}}{{#unless @last}}, {{/unless}}
+            {{/if}}
+          {{/if}}
+          {{/authors}}
+          <br>
+          <font color="Gray"><i>{{{conference.name}}}</i>, {{{conference.year}}}</font>
+          <br>
+          {{#links}}
+          {{#if href}}
+            <a href={{href}}>{{name}}</a>{{#unless @last}} | {{/unless}}
+          {{else}}
+            <a class="black_link">{{name}}</a>{{#unless @last}} | {{/unless}}
+          {{/if}}
+          {{/links}}
+          </p>
+          <p style="margin-bottom:0em;">{{description}}</p>
+        </div>
+      </div>
+      {{/papers}}
+    </script>
+    <script type="text/javascript">
+      renderHello()
+    </script>
+
+    <!-- This <i> tag was for some reason necessary for the publication list switch to work -->
+    <!-- <i> -->
+
+    <!-- Service -->
+    <a name="s"></a>
+    <div style="width:100%; text-align:left; margin-top:20;">
+      <heading>Service</heading> <br>
+    </div>
+    <div style="width:100%; text-align:left; margin-top:10;">
+      Serving/Served as a reviewer for ICML 2023, ICLR 2023, CoRL 2022, ICML 2022, ICLR 2022 (<strong>highlighted
+        reviewer
+        award</strong>, top 8%), NeurIPS 2021 (<strong>outstanding reviewer award</strong>, top 8%), CoRL 2021, ICLR
+      2021, ICLR
+      SSL-RL
+      Workshop 2021, IEEE ITSC 2019
+    </div>
+
+
+    <!-- Teaching -->
+    <a name="t"></a>
+    <div style="width:100%; text-align:left; margin-top:20;">
+      <heading>Teaching</heading> <br>
+    </div>
+    <div style="width:100%; text-align:left; margin-top:10;">
+      <strong>TA at University of Southern California</strong>
+      <li> <b>01/2023:</b> CSCI 566: Deep Learning (Master's Level)</li>
+      <li> <b>01/2022:</b> CSCI 360: Intro to AI (Undergrad Level)</li>
+      <li> <b>08/2020:</b> CSCI 566: Deep Learning (Master's Level)</li>
+      <br>
+      <strong>UC Berkeley</strong>
+      <li> <b>08/2019:</b> TA CS188: Intro to AI</li>
+      <li> <b>01/2019:</b> Course Reader CS170: Efficient Algs and Intractable Problems</li>
+    </div>
+
+    <div style="width:100%; text-align:left; margin-top:20; display:none">
+      <heading>Others </heading>
+    </div>
+    <div style="max-width:900; width:100%; margin:0 auto; display:none">
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <p align="center">
+            <a href="#top"><strong>Home</strong></a>&nbsp&nbsp/&nbsp
+            <!-- <a href=/projects><strong>Projects</strong></a>&nbsp&nbsp/&nbsp  -->
+            <a href=/posts><strong>Posts</strong></a>
+            <!-- <a><strong>Personal (Comming Soon)</strong></a> -->
+          </p>
+        </tr>
+      </table>
+    </div>
+
+    <span style="display:none">
+      <details>
+        <summary>
+          Pageviews
+        </summary>
+        <script type="text/javascript" id="clustrmaps"
+          src="https://cdn.clustrmaps.com/map_v2.js?cl=5ee2ff&w=400&t=tt&d=5De8UX9TDFsVQrQw4cE3CBhNblYyl2vQbk42qsTB9Fw&co=ffffff&cmo=d99cff&cmn=ffa3b9&ct=808080"></script>
+      </details>
+    </span>
+
+    <br>
+    <hr>
+    <div style="margin:auto">
+      <center>
+        Inspired by <a href="https://jonbarron.info/">this</strong></a> and <a
+          href="https://zcczhang.github.io/">this</strong></a>.
+      </center>
+    </div>
+  </div>
+</body>
+
+</html>
