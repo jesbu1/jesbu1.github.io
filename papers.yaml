@@ -158,7 +158,7 @@ papers:
       name: 'MDPI Brain Sciences Journal, 2023'
     links:
       - name: paper
-        link: 'https://www.mdpi.com/2076-3425/13/5/770'
+        href: 'https://www.mdpi.com/2076-3425/13/5/770'
     description: >-
       We present a framework for electroencephalography (EEG)-based
       classification between patients with Alzheimer’s Disease (AD) and robust
