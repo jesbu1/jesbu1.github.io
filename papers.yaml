@@ -37,6 +37,7 @@ papers:
   - name: roboclip
     title:
       name: 'RoboCLIP: One Demonstration is Enough to Learn Robot Policies'
+      link: "https://sites.google.com/view/roboclip/home"
     authors:
       - name: Sumedh Sontakke
         href: 'https://sumedh7.github.io/'
@@ -71,7 +72,8 @@ papers:
     highlighted: true
   - name: boss
     title:
-      name: 'Bootstrap Your Own Skills: Learning to Solve New Tasks with LLM Guidance'
+      name: 'Bootstrap Your Own Skills (BOSS): Learning to Solve New Tasks with LLM Guidance'
+      link: "https://clvrai.com/boss"
     authors:
       - me: true
       - name: Jiahui Zhang
