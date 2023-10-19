@@ -504,6 +504,7 @@ papers:
     img2: false
     nogif: true
   - name: gan
+    title: Unsupervised Projection Networks for Generative Adversarial Networks
     authors:
       - name: Daiyaan Arfeen
         href: 'https://www.linkedin.com/in/daiyaanarfeen'
