@@ -25,10 +25,10 @@ papers:
         href: 'https://arxiv.org/abs/2310.05905'
     description: >-
       We propose TAIL, a method of integrating parameter-efficient fine-tuning
-      techniques   from natural language processing and computer vision domains
+      techniques from natural language processing and computer vision domains
       into large decision-making models for sample-efficient continual imitation
-      learning.   We compare multiple adaptation techniques implemented in TAIL
-      and our extensive experiments reveal   that TAIL with LoRA can achieve the
+      learning. We compare multiple adaptation techniques implemented in TAIL
+      and our extensive experiments reveal that TAIL with LoRA can achieve the
       best post-adaptation performance with only 1% of the trainable parameters
       of full fine-tuning, while avoiding catastrophic forgetting and preserving
       adaptation plasticity in continual learning settings.
@@ -386,14 +386,14 @@ papers:
       We propose a “safety-critical adaptation” task setting: an agent first
       trains in non-safety-critical “source” environments such as in a
       simulator, before it adapts to the target environment where failures carry
-      heavy costs. \  We propose a solution approach, CARL, that builds on the
+      heavy costs. We propose a solution approach, CARL, that builds on the
       intuition that prior experience in diverse environments equips an agent to
       estimate risk, which in turn enables relative safety through risk-averse,
-      cautious adaptation. \  CARL first employs model-based RL to train a
+      cautious adaptation. CARL first employs model-based RL to train a
       probabilistic model to capture uncertainty across varied source
-      environments. \  Then, when exploring a new safety-critical environment,
+      environments. Then, when exploring a new safety-critical environment,
       the CARL agent plans to avoid actions that could lead to catastrophic
-      states. \  CARL successfully acquires cautious exploration behaviors,
+      states. CARL successfully acquires cautious exploration behaviors,
       yielding higher rewards with fewer failures than strong RL adaptation
       baselines.
     img2: false
