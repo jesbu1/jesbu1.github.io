@@ -506,14 +506,14 @@ papers:
     nogif: true
     highlighted: true
   - name: gan
-    title: Unsupervised Projection Networks for Generative Adversarial Networks
+    title: 
+      name: Unsupervised Projection Networks for Generative Adversarial Networks
     authors:
       - name: Daiyaan Arfeen
         href: 'https://www.linkedin.com/in/daiyaanarfeen'
         star: true
       - me: true
         star: true
-    title: Unsupervised Projection Networks for Generative Adversarial Networks
     conference:
       name: 'ICCV 2019 Sensing, Understanding, and Synthesizing Humans Workshop'
     description: >-
