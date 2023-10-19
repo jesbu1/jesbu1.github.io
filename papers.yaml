@@ -19,8 +19,7 @@ papers:
       - name: Rasool Fakoor
         href: 'https://sites.google.com/site/rfakoor'
     conference:
-      name: 'in submission, 2024 <br> ICLR'
-      year: 2024
+      name: 'in submission to ICLR 2024'
     links:
       - name: arXiv
         href: 'https://arxiv.org/abs/2310.05905'
@@ -56,7 +55,6 @@ papers:
         href: 'http://ilab.usc.edu/itti/'
     conference:
       name: NeurIPS 2023
-      year: 2023
     links:
       - name: arXiv
         href: 'https://arxiv.org/abs/2310.07899'
@@ -97,7 +95,6 @@ papers:
         talk</oral> at RSS Workshop on <a
         href="https://sites.google.com/andrew.cmu.edu/rss-2023-articulate-robots/home">Articulate
         Robots</a>
-      year: 2023
     links:
       - name: arXiv
         href: 'https://arxiv.org/abs/2310.10021'
@@ -131,7 +128,6 @@ papers:
         href: 'https://clvrai.com/web_lim/'
     conference:
       name: 'PrePrint, 2023 <br> <oral>Spotlight</oral> at CoRL 2022 LangRob Workshop'
-      year: 2023
     links:
       - name: arXiv
         href: 'https://arxiv.org/abs/2306.11886'
@@ -160,7 +156,6 @@ papers:
         href: 'https://olichneylab.faculty.ucdavis.edu/'
     conference:
       name: 'MDPI Brain Sciences Journal, 2023'
-      year: 2023
     links:
       - name: paper
         link: 'https://www.mdpi.com/2076-3425/13/5/770'
@@ -194,7 +189,6 @@ papers:
         href: 'https://shaohua0116.github.io/'
     conference:
       name: 'Preprint, 2023'
-      year: 2023
     links:
       - name: arXiv
         href: 'https://arxiv.org/abs/2303.06018'
@@ -230,7 +224,6 @@ papers:
         href: 'https://clvrai.com/web_lim/'
     conference:
       name: NeurIPS 2021 <br> Invited talk at AIPlans Workshop at NeurIPS 2021
-      year: 2021
     links:
       - name: arXiv
         href: 'https://arxiv.org/abs/2108.13643'
@@ -267,7 +260,6 @@ papers:
         href: 'https://clvrai.com/web_lim/'
     conference:
       name: Self-Supervision for Reinforcement Learning Workshop at ICLR 2021
-      year: 2021
     links:
       - name: openreview
         href: 'https://openreview.net/forum?id=r4XxtrIo1m9'
@@ -295,7 +287,6 @@ papers:
         href: 'https://scholar.google.com/citations?user=Gxz1fqwAAAAJ&hl=en'
     conference:
       name: ICLR 2021
-      year: 2021
     links:
       - name: arxiv
         href: 'https://arxiv.org/abs/2101.06521'
@@ -344,7 +335,6 @@ papers:
         href: 'https://people.eecs.berkeley.edu/~svlevine/'
     conference:
       name: CoRL 2020
-      year: 2020
     links:
       - name: arxiv
         href: 'https://arxiv.org/abs/2010.14500'
@@ -380,7 +370,6 @@ papers:
         href: 'https://www.seas.upenn.edu/~dineshj/'
     conference:
       name: ICML 2020
-      year: 2020
     links:
       - name: arxiv
         href: 'https://arxiv.org/abs/2008.06622'
@@ -423,7 +412,6 @@ papers:
       - me: true
     conference:
       name: Climate Change AI Workshop at ICLR 2020
-      year: 2020
     links:
       - name: paper
         href: 'https://www.climatechange.ai/papers/iclr2020/15/paper.pdf'
@@ -459,7 +447,6 @@ papers:
       - name: Randy H Katz
     conference:
       name: ACM BuildSys 2019
-      year: 2019
     links:
       - name: paper
         href: 'https://dl.acm.org/doi/10.1145/3360322.3360871'
@@ -495,7 +482,6 @@ papers:
         href: 'https://people.eecs.berkeley.edu/~svlevine/'
     conference:
       name: ICRA 2019
-      year: 2019
     links:
       - name: arXiv
         href: 'https://arxiv.org/abs/1905.07447'
@@ -527,7 +513,6 @@ papers:
     title: Unsupervised Projection Networks for Generative Adversarial Networks
     conference:
       name: 'ICCV 2019 Sensing, Understanding, and Synthesizing Humans Workshop'
-      year: 2019
     description: >-
       We propose the use of unsupervised learning to train projection networks
       that project onto the latent space of an already trained generator. We
