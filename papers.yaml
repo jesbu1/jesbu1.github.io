@@ -351,7 +351,7 @@ papers:
       Our hardest experimental setting involves composing four vision-based
       robotic skills in a row:  picking, placing, drawer opening, and grasping,
       where a +1/0 sparse re-ward is provided only on task completion.
-    highlight: true
+    highlighted: true
   - name: carl
     title:
       name: >-
@@ -398,6 +398,7 @@ papers:
       baselines.
     img2: false
     nogif: true
+    highlighted: true
   - name: mobilitynet
     title:
       name: 'MobilityNet: Towards A Public Dataset For Multi-Modal Mobility Research'
@@ -503,6 +504,7 @@ papers:
       reaching tasks on our REPLAB platform.
     img2: false
     nogif: true
+    highlighted: true
   - name: gan
     title: Unsupervised Projection Networks for Generative Adversarial Networks
     authors:
