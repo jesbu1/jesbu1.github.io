@@ -55,7 +55,9 @@
   <script type="text/javascript">
     function renderHello() {
       var template = document.getElementById('template').innerHTML;
+      console.log("loading papers.yaml start!")
       $.get("./papers.yaml").done(function (data) {
+        console.log("loading papers.yaml before try!")
         try {
           papers = jsyaml.load(data)
           var rendered = Handlebars.compile(template)(papers);

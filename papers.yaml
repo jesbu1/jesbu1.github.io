@@ -22,9 +22,9 @@ papers:
     links:
       - name: arXiv
         href: https://arxiv.org/abs/2310.05905
-    description: "We propose TAIL, a method of integrating parameter-efficient fine-tuning techniques \
-                  from natural language processing and computer vision domains into large decision-making models for sample-efficient continual imitation learning. \
-                  We compare multiple adaptation techniques implemented in TAIL and our extensive experiments reveal \
+    description: "We propose TAIL, a method of integrating parameter-efficient fine-tuning techniques \ 
+                  from natural language processing and computer vision domains into large decision-making models for sample-efficient continual imitation learning. \ 
+                  We compare multiple adaptation techniques implemented in TAIL and our extensive experiments reveal \ 
                   that TAIL with LoRA can achieve the best post-adaptation performance with only 1\% of the trainable parameters of full fine-tuning, while avoiding catastrophic forgetting and preserving adaptation plasticity in continual learning settings."
     highlighted: false
     nogif: true
@@ -58,7 +58,7 @@ papers:
         href: https://sites.google.com/view/roboclip/home
       - name: openreview
         href: https://openreview.net/forum?id=DVlawv2rSI
-    description: "We propose a method of specifying tasks for robots to learn by simply watching a single video demonstration or providing a \
+    description: "We propose a method of specifying tasks for robots to learn by simply watching a single video demonstration or providing a \ 
                   text description of the task. We utilize VLMs to reward robots based on the given demonstration or description, and show that our method can learn a variety of tasks from a single task specification."
     highlighted: true
 
@@ -140,7 +140,7 @@ papers:
   links:
     - name: paper
       link: https://www.mdpi.com/2076-3425/13/5/770
-  description: "We present a framework for electroencephalography (EEG)-based classification between patients with Alzheimer’s Disease (AD) and robust normal elderly (RNE) via a graph theory approach using visibility graphs (VGs). \
+  description: "We present a framework for electroencephalography (EEG)-based classification between patients with Alzheimer’s Disease (AD) and robust normal elderly (RNE) via a graph theory approach using visibility graphs (VGs). \ 
                 Twelve graph features were tested for differences between the AD and RNE groups, and t-tests employed for feature selection. The selected features were then tested for classification using traditional machine learning and deep learning algorithms, achieving a classification accuracy of 100% with linear and non-linear classifiers. We further demonstrated that the same features can be generalized to the classification of mild cognitive impairment (MCI) converters, i.e., prodromal AD, against RNE with a maximum accuracy of 92.5%."
   nogif: true
   img2: false
@@ -314,10 +314,10 @@ papers:
       href: https://icml.cc/virtual/2020/poster/6633
     - name: slides
       href: https://icml.cc/media/icml-2020/Slides/6633.pdf
-  description: 'We propose a “safety-critical adaptation” task setting: an agent first trains in non-safety-critical “source” environments such as in a simulator, before it adapts to the target environment where failures carry heavy costs. \
-                We propose a solution approach, CARL, that builds on the intuition that prior experience in diverse environments equips an agent to estimate risk, which in turn enables relative safety through risk-averse, cautious adaptation. \
-                 CARL first employs model-based RL to train a probabilistic model to capture uncertainty across varied source environments. \
-                 Then, when exploring a new safety-critical environment, the CARL agent plans to avoid actions that could lead to catastrophic states. \
+  description: 'We propose a “safety-critical adaptation” task setting: an agent first trains in non-safety-critical “source” environments such as in a simulator, before it adapts to the target environment where failures carry heavy costs. \ 
+                We propose a solution approach, CARL, that builds on the intuition that prior experience in diverse environments equips an agent to estimate risk, which in turn enables relative safety through risk-averse, cautious adaptation. \ 
+                 CARL first employs model-based RL to train a probabilistic model to capture uncertainty across varied source environments. \ 
+                 Then, when exploring a new safety-critical environment, the CARL agent plans to avoid actions that could lead to catastrophic states. \ 
                  CARL successfully acquires cautious exploration behaviors, yielding higher rewards with fewer failures than strong RL adaptation baselines.'
   img2: false
   nogif: true
