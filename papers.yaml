@@ -336,7 +336,7 @@ papers:
       - name: Sergey Levine
         href: 'https://people.eecs.berkeley.edu/~svlevine/'
     conference:
-      name: CoRL 2020
+      name: CoRL 2020 <br> <oral>Oral presentation</oral> at CoRL 2020 Offline RL Workshop
     links:
       - name: arxiv
         href: 'https://arxiv.org/abs/2010.14500'
