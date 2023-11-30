@@ -81,7 +81,7 @@ papers:
       - name: Karl Pertsch
         href: 'https://kpertsch.github.io/'
       - name: Ziyi Liu
-        href: 'https://www.linkedin.com/in/ziyi-liu-318616186/'
+        href: 'https://taichi-pink.github.io/Ziyi-Liu/'
       - name: Xiang Ren
         href: 'https://shanzhenren.github.io/'
       - name: Minsuk Chang
@@ -282,7 +282,7 @@ papers:
     authors:
       - me: true
         star: true
-      - name: Haonan yu
+      - name: Haonan Yu
         href: 'https://hnyu.github.io/'
         star: true
       - name: Wei Xu
