@@ -1,4 +1,33 @@
 papers:
+  - name: lift
+    title:
+      name: >-
+        LiFT: Unsupervised Reinforcement Learning with Foundation Models as Teachers
+    authors:
+      - name: Taewook Nam
+        href: 'https://taewooknam.notion.site/Taewook-Nam-ae8a9ccb9ca54622b03b3e53541d6241'
+      - name: Juyong Lee
+        href: 'https://gimme1dollar.github.io/'
+      - me: true
+      - name: Sung Ju Hwang
+        href: 'http://www.sungjuhwang.com/'
+      - name: Joseph J. Lim
+        href: 'https://clvrai.com/web_lim/'
+      - name: Karl Pertsch
+        href: 'https://kpertsch.github.io/'
+    conference:
+      name: 'NeurIPS 2023 ALOE Workshop'
+    links:
+      - name: arXiv
+        href: 'https://arxiv.org/abs/2312.08958'
+      - name: website
+        href: 'https://gimme1dollar.github.io/lift/'
+    description: >-
+      We propose LiFT (unsupervised Learning with Foundation model Teachers) framework 
+      that leverages foundation models as teachers, guiding a reinforcement learning agent 
+      to acquire semantically meaningful behavior without human feedback.
+    highlighted: false
+    nogif: true
   - name: tail
     title:
       name: >-
