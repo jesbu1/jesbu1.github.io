@@ -377,7 +377,7 @@ papers:
       undirected environment interaction, to extend and generalize new skills.
       Our hardest experimental setting involves composing four vision-based
       robotic skills in a row:  picking, placing, drawer opening, and grasping,
-      where a +1/0 sparse re-ward is provided only on task completion.
+      where a +1/0 sparse reward is provided only on task completion.
     highlighted: true
   - name: carl
     title:
