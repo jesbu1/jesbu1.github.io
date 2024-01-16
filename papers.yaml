@@ -140,7 +140,7 @@ papers:
       tasks by performing "skill bootstrapping," where an agent with a set of
       primitive skills interacts with the environment to practice new skills
       without receiving reward feedback for tasks outside of the initial skill
-      set. This bootstrapping phase is guided by large language models that
+      set. This bootstrapping phase is guided by LLMs that
       inform the agent of meaningful skills to chain together. Through this
       process, BOSS builds a wide range of complex and useful behaviors from a
       basic set of primitive skills.
@@ -192,12 +192,11 @@ papers:
         href: 'https://www.mdpi.com/2076-3425/13/5/770'
     description: >-
       We present a framework for electroencephalography (EEG)-based
-      classification between patients with Alzheimer’s Disease (AD) and robust
+      classification between patients with Alzheimer's Disease (AD) and robust
       normal elderly (RNE) via a graph theory approach using visibility graphs
-      (VGs).   Twelve graph features were tested for differences between the AD
-      and RNE groups, and t-tests employed for feature selection. The selected
-      features were then tested for classification using traditional machine
-      learning and deep learning algorithms, achieving a classification accuracy
+      (VGs). The selected graph
+      features were tested for classification using machine
+      learning algorithms, achieving a classification accuracy
       of 100% with linear and non-linear classifiers. We further demonstrated
       that the same features can be generalized to the classification of mild
       cognitive impairment (MCI) converters, i.e., prodromal AD, against RNE
@@ -267,9 +266,10 @@ papers:
       - name: video
         href: 'https://nips.cc/virtual/2021/poster/26528'
     description: >-
-      We present a framework that learns to synthesize a program, detailing the
+      We present a framework that learns to synthesize programs, detailing the
       procedure to solve a task in a flexible and expressive manner, solely from
-      reward signals. To alleviate the difficulty of learning to compose
+      reward signals to act as policies in MDPs. 
+      To alleviate the difficulty of learning to compose
       programs to induce the desired agent behavior from scratch, we propose to
       learn a program embedding space that continuously parameterizes diverse
       behaviors in an unsupervised manner and then search over the learned
@@ -285,6 +285,7 @@ papers:
         star: true
       - name: Karl Pertsch
         href: 'https://kpertsch.github.io/'
+        star: true
       - name: Jiefan Yang
         href: 'https://www.linkedin.com/in/jiefan-yang-a37a35179'
       - name: Joseph J. Lim
@@ -333,14 +334,10 @@ papers:
     description: >-
       We propose a hierarchical reinforcement learning method, HIDIO, that can
       learn task-agnostic options in a self-supervised manner while jointly
-      learning to utilize them to solve sparse-reward tasks. Unlike current
-      hierarchical RL approaches that tend to formulate goal-reaching low-level
-      tasks or pre-define ad hoc lower-level policies, HIDIO encourages
+      learning to utilize them to solve sparse-reward tasks. HIDIO encourages
       lower-level option learning that is independent of the task at hand,
       requiring few assumptions or little knowledge about the task structure.
-      These options are learned through an intrinsic entropy minimization
-      objective conditioned on the option sub-trajectories. The learned options
-      are diverse and task-agnostic. In experiments on sparse-reward robotic
+      In experiments on sparse-reward robotic
       manipulation and navigation tasks, HIDIO achieves higher success rates
       with greater sample efficiency than regular RL baselines and two
       state-of-the-art hierarchical RL methods.
@@ -382,7 +379,7 @@ papers:
       undirected environment interaction, to extend and generalize new skills.
       Our hardest experimental setting involves composing four vision-based
       robotic skills in a row:  picking, placing, drawer opening, and grasping,
-      where a +1/0 sparse re-ward is provided only on task completion.
+      where a +1/0 sparse reward is provided only on task completion.
     highlighted: true
   - name: carl
     title:
@@ -418,14 +415,10 @@ papers:
       We propose a “safety-critical adaptation” task setting: an agent first
       trains in non-safety-critical “source” environments such as in a
       simulator, before it adapts to the target environment where failures carry
-      heavy costs. We propose a solution approach, CARL, that builds on the
+      heavy costs. We propose a solution, CARL, that builds on the
       intuition that prior experience in diverse environments equips an agent to
       estimate risk, which in turn enables relative safety through risk-averse,
-      cautious adaptation. CARL first employs model-based RL to train a
-      probabilistic model to capture uncertainty across varied source
-      environments. Then, when exploring a new safety-critical environment,
-      the CARL agent plans to avoid actions that could lead to catastrophic
-      states. CARL successfully acquires cautious exploration behaviors,
+      cautious adaptation. CARL successfully acquires cautious exploration behaviors,
       yielding higher rewards with fewer failures than strong RL adaptation
       baselines.
     img2: false
@@ -451,12 +444,7 @@ papers:
       - name: website/video/slides
         href: 'https://www.climatechange.ai/papers/iclr2020/15'
     description: >-
-      Influencing transportation demand can significantly reduce CO2 emissions.
-      Individual user mobility models are key to influencing demand at the
-      personal and structural levels. Constructing such models is a challenging
-      task that depends on a number of interdependent steps. Progress on this
-      task is hamstrung by the lack of high quality public datasets. We
-      introduce MobilityNet: the first step towards a common ground for
+      We introduce MobilityNet: the first step towards a common ground for
       multi-modal mobility research. MobilityNet solves the holistic evaluation,
       privacy preservation and fine grained ground truth problems through the
       use of artificial trips, control phones, and repeated travel. It currently
@@ -487,11 +475,9 @@ papers:
       We perform the first quantitative comparison of behavior change strategies
       in the transportation behavior domain. Since this is a pilot with a
       limited recruitment budget, we design a Randomized Controlled Trial (RCT)
-      using an open source platform. We assign 41 users to three mobile
-      applications: Emotion, Information, Control. The RCT allows us to draw
-      statistically valid inferences that can suggest future avenues for
-      larger-scale studies. We found that Emotion resulted in greater engagement
-      with the application (p=0.006, 0.035, 0.031, 0.040) while Information
+      using an open source platform. We found that emotional approaches 
+      resulted in greater engagement
+      with the application while informational approaches
       improved the sustainability of travel behavior (p = 0.043). These
       exploratory statistical results can motivate the design of future studies
       to further explore combinations of these approaches for sustainable
@@ -523,12 +509,8 @@ papers:
     description: >-
       REPLAB is a reproducible and self-contained hardware stack (robot arm,
       camera, and workspace) that costs about 2000 USD, occupies a cuboid of
-      size 70x40x60 cm, and permits full assembly within a few hours. Through
-      this low-cost, compact design, REPLAB aims to drive wide participation by
-      lowering the barrier to entry into robotics and to enable easy scaling to
-      many robots. We envision REPLAB as a framework for reproducible research
-      across manipulation tasks, and as a step in this direction, we define a
-      template for a grasping benchmark consisting of a task definition,
+      size 70x40x60 cm, and permits full assembly within a few hours. 
+      We define a template for a grasping benchmark consisting of a task definition,
       evaluation protocol, performance measures, and a dataset of 92k grasp
       attempts. We implement, evaluate, and analyze several previously proposed
       grasping approaches to establish baselines for this benchmark. Finally, we
