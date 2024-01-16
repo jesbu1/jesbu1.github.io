@@ -48,7 +48,7 @@ papers:
       - name: Rasool Fakoor
         href: 'https://sites.google.com/site/rfakoor'
     conference:
-      name: 'in submission to ICLR 2024'
+      name: 'ICLR 2024'
     links:
       - name: arXiv
         href: 'https://arxiv.org/abs/2310.05905'
@@ -346,6 +346,7 @@ papers:
       state-of-the-art hierarchical RL methods.
     nogif: true
     img2: false
+    highlighted: true
   - name: cog
     title:
       name: >-
