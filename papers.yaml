@@ -1,32 +1,27 @@
 papers:
-  - name: lift
+  - name: rlvlmf
     title:
       name: >-
-        LiFT: Unsupervised Reinforcement Learning with Foundation Models as Teachers
+        RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback
     authors:
-      - name: Taewook Nam
-        href: 'https://taewooknam.notion.site/Taewook-Nam-ae8a9ccb9ca54622b03b3e53541d6241'
-      - name: Juyong Lee
-        href: 'https://gimme1dollar.github.io/'
+      - name: Yufei Wang
+        href: 'https://yufeiwang63.github.io/'
+      - name: Zhanyi Sun
       - me: true
-      - name: Sung Ju Hwang
-        href: 'http://www.sungjuhwang.com/'
-      - name: Joseph J. Lim
-        href: 'https://clvrai.com/web_lim/'
-      - name: Karl Pertsch
-        href: 'https://kpertsch.github.io/'
+      - name: Zhou Xian
+        href: 'https://www.zhou-xian.com/'
+      - name: Erdem Bıyık
+        href: 'https://ebiyik.github.io/'
+      - name: David Held
+        href: 'https://davidheld.github.io/'
+      - name: Zackory Erickson
+        href: 'https://zackory.com/'
     conference:
-      name: 'NeurIPS 2023 ALOE Workshop'
-    links:
-      - name: arXiv
-        href: 'https://arxiv.org/abs/2312.08958'
-      - name: website
-        href: 'https://gimme1dollar.github.io/lift/'
+      name: 'Submitted to ICML 2024'
     description: >-
-      We propose LiFT (unsupervised Learning with Foundation model Teachers) framework 
-      that leverages foundation models as teachers, guiding a reinforcement learning agent 
-      to acquire semantically meaningful behavior without human feedback.
-    highlighted: false
+      We propose to use Vision-Language Models (VLMs) to generate preferences for RLHF instead of humans.
+      We call this RL-VLM-F, and we demonstrate that RL-VLM-F allows agents to learn arbitrary new tasks from VLMs without any human feedback.
+    highlighted: true
     nogif: true
   - name: tail
     title:
@@ -61,6 +56,35 @@ papers:
       best post-adaptation performance with only 1% of the trainable parameters
       of full fine-tuning, while avoiding catastrophic forgetting and preserving
       adaptation plasticity in continual learning settings.
+    highlighted: false
+    nogif: true
+  - name: lift
+    title:
+      name: >-
+        LiFT: Unsupervised Reinforcement Learning with Foundation Models as Teachers
+    authors:
+      - name: Taewook Nam
+        href: 'https://taewooknam.notion.site/Taewook-Nam-ae8a9ccb9ca54622b03b3e53541d6241'
+      - name: Juyong Lee
+        href: 'https://gimme1dollar.github.io/'
+      - me: true
+      - name: Sung Ju Hwang
+        href: 'http://www.sungjuhwang.com/'
+      - name: Joseph J. Lim
+        href: 'https://clvrai.com/web_lim/'
+      - name: Karl Pertsch
+        href: 'https://kpertsch.github.io/'
+    conference:
+      name: 'NeurIPS 2023 ALOE Workshop'
+    links:
+      - name: arXiv
+        href: 'https://arxiv.org/abs/2312.08958'
+      - name: website
+        href: 'https://gimme1dollar.github.io/lift/'
+    description: >-
+      We propose LiFT (unsupervised Learning with Foundation model Teachers) framework 
+      that leverages foundation models as teachers, guiding a reinforcement learning agent 
+      to acquire semantically meaningful behavior without human feedback.
     highlighted: false
     nogif: true
   - name: roboclip
