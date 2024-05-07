@@ -17,7 +17,7 @@ papers:
       - name: Zackory Erickson
         href: 'https://zackory.com/'
     conference:
-      name: 'Submitted to ICML 2024'
+      name: 'ICML 2024'
     description: >-
       We propose to use Vision-Language Models (VLMs) to generate preferences for RLHF instead of humans.
       We call this RL-VLM-F, and we demonstrate that RL-VLM-F allows agents to learn arbitrary new tasks from VLMs without any human feedback.
