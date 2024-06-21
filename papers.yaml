@@ -3,6 +3,7 @@ papers:
     title:
       name: >-
         RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback
+      link: 'https://rlvlmf2024.github.io/'
     authors:
       - name: Yufei Wang
         href: 'https://yufeiwang63.github.io/'
@@ -26,11 +27,14 @@ papers:
     links: 
       - name: arXiv
         href: 'https://arxiv.org/abs/2402.03681'
+      - name: website
+        href: 'https://rlvlmf2024.github.io/'
   - name: tail
     title:
       name: >-
         TAIL: Task-Specific Adapters for Imitation Learning with Large
         Pretrained Models
+      link: 'https://arxiv.org/abs/2310.05905'
     authors:
       - name: Zuxin Liu
         href: 'https://zuxin.me/'
@@ -65,6 +69,7 @@ papers:
     title:
       name: >-
         LiFT: Unsupervised Reinforcement Learning with Foundation Models as Teachers
+      link: 'https://gimme1dollar.github.io/lift/'
     authors:
       - name: Taewook Nam
         href: 'https://taewooknam.notion.site/Taewook-Nam-ae8a9ccb9ca54622b03b3e53541d6241'
@@ -235,7 +240,7 @@ papers:
   - name: hnps
     title:
       name: Hierarchical Neural Program Synthesis
-      href: 'https://thoughtp0lice.github.io/hnps_web/'
+      link: 'https://thoughtp0lice.github.io/hnps_web/'
     authors:
       - name: Linghan Zhong
         href: 'https://www.linkedin.com/in/linghan-zhong-b8796a187'
