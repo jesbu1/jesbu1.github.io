@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="SPRINT: Semantic Policy Pre-training via Language Instruction Relabeling.">
+  <meta name="keywords" content="Reinforcement Learning, Policy Pre-Training, Large Language Models">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EXTRACT: Efficient Policy Learning by Extracting Transferrable Robot Skills from Offline Data</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/logo_clvr.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">EXTRACT: Efficient Policy Learning by Extracting Transferrable Robot Skills from Offline Data</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://jessezhang.net/">Jesse Zhang</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://minoring.github.io/">Minho Heo</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="https://zuxin.me/">Zuxin Liu</a><sup>3</sup>,
+              <span class="author-block">
+                <a href="https://ebiyik.github.io/">Erdem Bıyık</a><sup>1</sup>,
+              <span class="author-block">
+                <a href="https://clvrai.com/web_lim/">Joseph J. Lim</a><sup>2</sup>
+              </span>
+              <span class="author-block">
+                <a href="http://yao-liu.com/">Yao Liu</a><sup>4</sup>,
+              <span class="author-block">
+                <a href="https://sites.google.com/site/rfakoor">Rasool Fakoor</a><sup>4</sup>,
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>USC,</span>
+              <span class="author-block"><sup>2</sup>KAIST,</span>
+              <span class="author-block"><sup>3</sup>CMU,</span>
+              <span class="author-block"><sup>4</sup>AWS</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <!-- <span class="link-block">
+                <a href="https://arxiv.org/pdf/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/TODO" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+                <!-- Code Link. 
+                <span class="link-block">
+                  <a href="https://github.com/clvrai/sprint" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>-->
+                <!-- Dataset Link. -->
+                <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hero is-small">
+    <!-- <section > 
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-sprint-prompt2">
+            <video poster="" id="sprint_prompt_2" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/SPRINT_robot_2_stable.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-sprint-prompt0">
+            <video poster="" id="sprint_prompt_0" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/SPRINT_robot_0_stable.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-alfred">
+            <video poster="" id="alfred" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/SPRINT_ALFREDx2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-alfred-2">
+            <video poster="" id="alfred-2" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/SPRINT_ALFRED_2x2.mp4" type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>-->
+  <!-- <br>
+<br><hr> -->
+
+<section class="section">
+  <div class="container">
+    <div class="is-centered has-text-centered">
+      <video id="teaser_video" width=100% muted autoplay style="border-radius:10px;" margin="auto">
+        <source src="static/videos/extract_video_small.mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+  <br><br>
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <!-- <p>
+            We present the first method capable of photorealistically reconstructing a non-rigidly
+            deforming scene using photos/videos captured casually from mobile phones.
+          </p> -->
+            <p>
+              EXTRACT enables efficient transfer learning with RL by discovering a set of discrete, continuously parameterized skills from offline data useful for learning new tasks.
+
+EXTRACT unsupervisedly extracts a discrete set of skills from offline data that can be used for efficient learning of new tasks by:
+
+    (1) Using VLMs to extract a discrete set of aligned skills from image-action data.
+
+    (2) Training a skill decoder to output low-level actions given discrete skill IDs and learned continuous arguments. 
+
+(3) Using the decoder, along with guidance from learned priors (see the paper), to help a skill-based policy efficiently learn new tasks with a simplified action space over skill IDs and arguments.
+            </p>
+
+
+
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+      <div class="content has-text-centered">
+        <img src="./static/images/extract_teaser.png" class="interpolation-image"
+          alt="Interpolate start reference image.">
+        </img>
+      </div>
+    </div>
+  </section>
+
+  <br>
+  <hr>
+
+  <!-- Animation. -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">EXTRACT</h2>
+          <div class="content has-text-justified">
+            <p>
+              EXTRACT equips robots with a repertoire of discrete, transferrable skills 
+              which can be modulated via continuous arguments to perform a wide range of tasks.
+              It also trains <i>priors</i> to guide a policy in learning <i>what</i> skill to choose
+              and <i>how</i> to use it (i.e., its continuous arguments).
+            </p>
+          </div>
+          <!-- Re-rendering. -->
+          <h3 class="title is-4">Method</h3>
+          <div class="content has-text-centered">
+            <img src="./static/images/extract_method.png" class="interpolation-image"
+              alt="Interpolate start reference image.">
+            </img>
+          </div>
+          <div class="content has-text-justified">
+            <p>
+            Thus, except the provided annotations from the dataset,  -->
+              SPRINT introduces two approaches for increasing the scale and diversity of the pre-training task
+              instructions
+              without requiring additional costly human inputs.
+              SPRINT pre-trains policies on the combined set of tasks and thereby equips them with a richer skill
+              repertoire.
+            </p>
+            <h4 class="title is-5">1. Offline Skill Extraction (left) </h4>
+            <p>
+              We extract a discrete set of skills from offline data by clustering together visual VLM difference embeddings representing high-level behaviors.
+            </p>
+            <h4 class="title is-5">2. Offline Skill Learning (middle) </h4>
+            <p>
+              We train a skill decoder model, 𝒟, to output variable-length action sequences conditioned on a skill ID 𝑑 and a learned continuous argument 𝑧. The argument 𝑧 is learned by training 𝒟 with a VAE reconstruction objective from action sequences encoded by a skill encoder. Additionally, we train skill selection prior and skill argument prior to predict which skills 𝑑 and their arguments 𝑧 are useful for a given state 𝑠. Colorful arrows indicate gradients from reconstruction, argument prior, selection prior, and VAE losses.
+            </p>
+            <h4 class="title is-5">3. Online Skill-Based RL (right) </h4>
+            <p>
+              To learn a new task, we train a skill selection and skill argument policy with reinforcement learning (RL) while regularizing them with the skill selection and skill argument priors. 
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+  <hr>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h3 class="title is-3">Environments</h3>
+          <!-- make below image take up . -->
+          <div class="content has-text-centered">
+            <img width=30% src="./static/images/franka_kitchen_test.gif" class="interpolation-image" alt="Interpolate start reference image."></img>
+            <video id="libero_video" width=60% muted autoplay loop style="border-radius:10px;" margin="auto">
+              <source src="static/videos/libero_vid.mp4">
+            </video>
+            <!-- <p>  </p> -->
+          </div>
+          <br>
+          We evaluate EXTRACT in two domains on 41 total tasks that require transferring knowledge to learn new skills effectively. 
+          <br>
+          <b>(a) Franka Kitchen:</b> Franka kitchen requires executing an unseen sequence of 4 sub-tasks in a row.
+          <br>
+          <b>(b) LIBERO: </b> LIBERO consists of 4 unseen task suites with 10 tasks each. 
+          Each task suite tests various transfer learning capabilities.
+        </div>
+
+      </div>
+  </section>
+
+  <br>
+  <hr>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <!-- Re-rendering. -->
+          <h3 class="title is-3">Results</h3>
+            <img width=100% src="./static/images/results_overview.png" class="interpolation-image" alt="Interpolate start reference image.">
+            </img>
+          <p>
+            We compare <span style="color:#0173b2">EXTRACT</span> against prior skill-based RL (<span style="color:#de8f05">SPiRL</span>), standard <span style="color:#029e73">SAC</span> and RL-finetuned <span style="color:#d55e00">BC</span> baselines.  
+          </p>
+          <h4 class="title is-4">ALFRED</h4>
+          <div class="content has-text-justified">
+            <h5 class="title is-5">Zero-shot Evaluation</h5>
+            <p>
+              Evaluate on seen tasks.
+            </p>
+
+            <div class="content has-text-centered">
+              <!--  3 gif images place in one row -->
+              <div class="columns is-centered">
+                <div class="column">
+                  <img src="./static/images/ET_length.gif" class="interpolation-image"
+                    alt="Interpolate start reference image.">
+                  </img>
+                  <b style="color:black;font-size:20px;"> Episodic Transformer </b>
+                  <p> Completes 6/8 sub-tasks. </p>
+                </div>
+                <div class="column">
+                  <img src="./static/images/AM_length.gif" class="interpolation-image"
+                    alt="Interpolate start reference image.">
+                  </img>
+                  <b style="color:black;font-size:20px;"> Actionable Models </b>
+                  <p> Completes 0/8 sub-tasks. </p>
+                </div>
+                <div class="column">
+                  <img src="./static/images/SPRINT_length.gif" class="interpolation-image"
+                    alt="Interpolate start reference image.">
+                  </img>
+                  <!--  input high light text -->
+                  <b style="color:black;font-size:20px;"> SPRINT </b>
+                  <p> Completes 8/8 sub-tasks. </p>
+                </div>
+              </div>
+              <p style="color:black;font-size:20px;">
+                Task: "Throw away a microwaved slice of potato."
+              </p>
+            </div>
+            <br />
+            <p>
+              SPRINT outperforms the baselines on zero-shot evaluation.
+              SPRINT finish all 8 sub-tasks, while Episodic Transformer, the state-of-the-art imitation learning
+              baseline
+              only finishes 6 sub-tasks.
+              The other offline RL baseline, Actionable Models, does not finish any sub-tasks.
+            </p>
+            <br />
+          </div>
+          <br>
+          <br>
+          <h5 class="title is-5">Online RL Finetuning</h5>
+          <p>
+            Finetune pre-trained policies with online RL for 50,000 timesteps.
+          </p>
+          <br />
+
+
+          <div class="content has-text-centered">
+            <!--  3 gif images place in one row -->
+            <div class="columns is-centered">
+              <div class="column">
+                <img src="./static/images/ET_scene.gif" class="interpolation-image"
+                  alt="Interpolate start reference image.">
+                </img>
+                <b style="color:black;font-size:20px;"> Episodic Transformer </b>
+                <p> Completes 1/3 sub-tasks. </p>
+              </div>
+              <div class="column">
+                <img src="./static/images/AM_scene.gif" class="interpolation-image"
+                  alt="Interpolate start reference image.">
+                </img>
+                <b style="color:black;font-size:20px;"> Actionable Models </b>
+                <p> Completes 0/3 sub-tasks. </p>
+              </div>
+              <div class="column">
+                <img src="./static/images/SPRINT_scene.gif" class="interpolation-image"
+                  alt="Interpolate start reference image.">
+                </img>
+                <b style="color:black;font-size:20px;"> SPRINT </b>
+                <p> Completes 2/3 sub-tasks. </p>
+              </div>
+            </div>
+            <p style="color:black;font-size:20px;">
+              Task: "Put the chilled lettuce on the counter."
+            </p>
+          </div>
+          <br />
+          <p>
+            SPRINT also can benefit from online RL finetuning for unseen tasks.
+            SPRINT finishes 2/3 sub-tasks, while Episodic Transformer only finishes 1 sub-task.
+            And Actionable Models does not finish any sub-tasks.
+          </p>
+          <br />
+          <br />
+          <br />
+          <h4 class="title is-4">Real World Kitchen Manipulation</h4>
+          <div class="content has-text-justified">
+            <h5 class="title is-5">Offline Finetuning</h5>
+            <p>
+              We perform offline fine-tuning on 25 demonstrations for each task after pre-training.
+            </p>
+
+            <div class="content has-text-centered">
+              <!--  2 gif images place in one row -->
+              <div class="columns is-centered">
+                <div class="column">
+                  <img src="./static/images/LBC_prompt0.gif" class="interpolation-image"
+                    alt="Interpolate start reference image.">
+                  </img>
+                  <br />
+                  <b style="color:black;font-size:20px;"> L-BC Composite </b>
+                  <p> Completes 4/8 sub-tasks. </p>
+                </div>
+                <div class="column">
+                  <img src="./static/images/SPRINT_robot.gif" class="interpolation-image"
+                    alt="Interpolate start reference image.">
+                  </img>
+                  <br />
+                  <b style="color:black;font-size:20px;"> SPRINT </b>
+                  <p> Completes 8/8 sub-tasks. </p>
+                </div>
+              </div>
+              <p style="color:black;font-size:20px;">
+                Task: "Serve milk in the bowl and butter and baked bread in the plate."
+              </p>
+            </div>
+          </div>
+          <br />
+          <p>
+            We compare SPRINT with L-BC Composite, which is the best performing baseline.
+            SPRINT accomplishes all the sub-tasks, while L-BC Composite fails to complete 4 sub-tasks.
+            SPRINT is able to generalize to unseen tasks by finetuning with limited demonstrations.
+            L-BC Composite performs well on the first 4 sub-tasks, but fails on the longer horizon sub-tasks.
+          </p>
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Concurrent Work. -->
+  <!-- <section class="section"></section> -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{zhang2023sprint,
+      title={SPRINT: Scalable Policy Pre-Training via Language Instruction Relabeling}, 
+      author={Jesse Zhang and Karl Pertsch and Jiahui Zhang and Joseph J. Lim},
+      year={2023},
+      eprint={2306.11886},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+    </code></pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <!--
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>-->
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+              <p>
+                Website borrowed from <a rel="license" href="https://nerfies.github.io/">Nerfies</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+</body>
+
+</html>
