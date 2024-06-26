@@ -25,6 +25,8 @@ papers:
         href: 'https://arxiv.org/abs/2406.17768'
       - name: website
         href: 'https://jessezhang.net/projects/extract'
+    highlighted: true
+    nogif: true
     description: EXTRACT learns to extract discrete, continuously parameterized skills from offline data, unsupervisedly using VLMs. 
       This discrete/continuous separation enables better transfer learning to improve the sample efficiency of RL on new tasks. 
       We demonstrate that EXTRACT can learn a diverse set of skills from an offline dataset and transfer them to a variety of downstream tasks more efficiently.
