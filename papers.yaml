@@ -2,7 +2,7 @@ papers:
   - name: extract
     title:
       name: >-
-        EXTRACT: EXTRACT: Efficient Policy Learning by Extracting Transferrable Robot Skills from Offline Data
+        EXTRACT: Efficient Policy Learning by Extracting Transferrable Robot Skills from Offline Data
       link: https://arxiv.org/abs/2406.17768
     authors:
       - me: true
