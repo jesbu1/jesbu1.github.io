@@ -283,10 +283,13 @@
             <h3 class="title is-3">Environments</h3>
             <!-- make below image take up . -->
             <div class="content has-text-centered">
-              <img width=30% src="./static/images/franka_kitchen_test.gif" class="interpolation-image"
+              <img width=20% src="./static/images/franka_kitchen_test.gif" class="interpolation-image"
                 alt="Interpolate start reference image."></img>
-              <video id="libero_video" width=60% muted autoplay loop style="border-radius:10px;" margin="auto">
+              <video id="libero_video" width=40% muted autoplay loop style="border-radius:10px;" margin="auto">
                 <source src="static/videos/libero_vid.mp4">
+              </video>
+              <video id="libero_video" width=30% muted autoplay loop style="border-radius:10px;" margin="auto">
+                <source src="static/videos/furniture_bench_vid.mp4">
               </video>
               <!-- <p>  </p> -->
             </div>
@@ -298,6 +301,10 @@
             <br>
             <b>(b) LIBERO: </b> LIBERO consists of 4 unseen task suites with 10 tasks each.
             Each task suite tests various transfer learning capabilities.
+            <br>
+            <b>(c) FurnitureBench: </b> FurnitureBench is a real-world furniture assembly benchmark. We transfer learn to unseen initial object and end-effector positions and 
+            orientations.
+
           </div>
 
         </div>
@@ -460,21 +467,77 @@
       </div>
     </section>
 
+    
+    <br>
+    <hr>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-full-width">
+            <h3 class="title is-3">FurnitureBench</h3>
+            <p>
+              We demonstrate EXTRACT's ability to transfer learn in the real-world FurnitureBench domain over just 100 trajectories of fine-tuning. The task involves assembling furniture with unseen initial object and end-effector positions and orientations.
+            </p>
+            <div class="content has-text-centered">
+              <div class="columns is-centered">
+                <div class="column">
+                  <video id="furniture_extract_before" width=100% muted autoplay loop style="border-radius:10px;" margin="auto">
+                    <source src="static/videos/furniture_extract_before.mov">
+                  </video>
+                  <b style="color:black;font-size:20px;"> Before online RL fine-tuning. </b>
+                </div>
+                <div class="column">
+                  <video id="furniture_extract_after" width=100% muted autoplay loop style="border-radius:10px;" margin="auto">
+                    <source src="static/videos/furniture_extract_after.mov">
+                  </video>
+                  <b style="color:black;font-size:20px;"> After 100 episodes of RL fine-tuning. </b>
+                </div>
+              </div>
+              <div class="content has-text-centered">
+                <h4 class="title is-4">FurnitureBench Performance Table</h4>
+                <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                  <thead>
+                    <tr>
+                      <th>Method</th>
+                      <th>Before Finetuning</th>
+                      <th>After Finetuning</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>SPiRL</td>
+                      <td>1.35</td>
+                      <td>1.55</td>
+                    </tr>
+                    <tr>
+                      <td>EXTRACT</td>
+                      <td><b>1.90</b></td>
+                      <td><b>2.50</b></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <!-- <section class="section"></section> -->
     <section class="section" id="BibTeX">
       <div class="container is-max-desktop content">
         <h2 class="title">BibTeX</h2>
-        <pre><code>@misc{zhang2024extract,
-      title={EXTRACT: Efficient Policy Learning by Extracting transferable Robot Skills from Offline Data}, 
-      author={Jesse Zhang and Minho Heo and Zuxin Liu and Erdem Bıyık and Joseph J. Lim and Yao Liu and Rasool Fakoor},
-      year={2024},
-      eprint={2406.17768},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
-      url={https://arxiv.org/abs/2406.17768},
-    }
+        <pre><code>
+@inproceedings{
+  zhang2024extract,
+  title={{EXTRACT}: Efficient Policy Learning by Extracting Transferrable Robot Skills from Offline Data},
+  author={Jesse Zhang and Minho Heo and Zuxin Liu and Erdem Biyik and Joseph J Lim and Yao Liu and Rasool Fakoor},
+  booktitle={8th Annual Conference on Robot Learning},
+  year={2024},
+  url={https://openreview.net/forum?id=uEbJXWobif}
+}
     </code></pre>
       </div>
     </section>
