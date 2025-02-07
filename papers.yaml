@@ -1,4 +1,50 @@
 papers:
+  - name: hamster
+    title:
+      name: >-
+        HAMSTER: Hierarchical Action Models For Open-World Robot Manipulation
+      link: 
+    authors:
+      - name: Yi Li
+        href: https://yili.vision/
+        star: true
+      - name: Yuquan Deng
+        href: https://scholar.google.com/citations?user=LTC0Q6YAAAAJ&hl=en
+        star: true
+      - me: true
+        star: true
+      - name: Joel Jang
+        href: https://joeljang.github.io/
+      - name: Marius Memmel
+        href: https://memmelma.github.io/
+      - name: Raymond Yu
+        href: https://raymondyu5.github.io/
+      - name: Caelan Reed Garrett
+        href: https://web.mit.edu/caelan/www/
+      - name: Fabio Ramos
+        href: https://fabioramos.github.io/Home.html
+      - name: Dieter Fox
+        href: https://homes.cs.washington.edu/~fox/
+      - name: Anqi Li
+        href: https://anqili.github.io/
+        star: true
+      - name: Abhishek Gupta
+        href: https://homes.cs.washington.edu/~abhgupta/
+        star: true
+      - name: Ankit Goyal
+        href: https://imankgoyal.github.io/
+        star: true
+    conference:
+      name: 'ICLR 2025'
+    links:
+      - name: arXiv (coming soon)
+        href: 
+      - name: website
+        href: https://hamster-robot.github.io/
+    highlighted: true
+    nogif: true
+    description: We propose a Hierarchical VLA architecture, HAMSTER, which can enable robotic manipulation with semantic, visual, and geometric generalization after being trained on easy to collect, off-domain data. 
+      This allows us to combine the benefits of imitation learning models, which require little in-domain robot data, with those of large VLA models that can generalize well.
   - name: extract
     title:
       name: >-
