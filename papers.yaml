@@ -42,7 +42,7 @@ papers:
       - name: website
         href: https://hamster-robot.github.io/
     highlighted: true
-    nogif: true
+    nogif: false
     description: We propose a Hierarchical VLA architecture, HAMSTER, which can enable robotic manipulation with semantic, visual, and geometric generalization after being trained on easy to collect, off-domain data. 
       This allows us to combine the benefits of imitation learning models, which require little in-domain robot data, with those of large VLA models that can generalize well.
   - name: extract
