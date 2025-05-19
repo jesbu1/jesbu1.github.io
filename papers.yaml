@@ -567,7 +567,7 @@ papers:
       baselines.
     img2: false
     nogif: true
-    highlighted: true
+    highlighted: false
   - name: mobilitynet
     title:
       name: 'MobilityNet: Towards A Public Dataset For Multi-Modal Mobility Research'
