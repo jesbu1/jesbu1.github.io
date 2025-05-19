@@ -29,7 +29,7 @@ papers:
       - name: website
         href: https://rewind-reward.github.io/
     highlighted: true
-    nogif: true
+    nogif: false
     description: ReWiND enables sample-efficient adaptation to new tasks by training a language-conditioned reward model and policy from a small set of demonstrations to learn new tasks without additional per-task demonstrations. We beat baselines by 2X in simulation and improve real-world pre-trained policies by 5X in just 1 hour.
 
   - name: hamster
