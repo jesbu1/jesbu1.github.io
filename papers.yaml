@@ -60,7 +60,7 @@ papers:
       name: "In Submission"
     links:
       - name: arXiv
-        href: 'https://arxiv.org/abs/2505.10911'
+        href: https://arxiv.org/abs/2505.10911
       - name: website
         href: 'https://rewind-reward.github.io/'
     highlighted: true
