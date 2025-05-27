@@ -1,4 +1,37 @@
 papers:
+  - name: hand
+    title:
+      name: >-
+        HAND Me the Data: Fast Robot Adaptation via Hand Path Retrieval
+      link: https://liralab.usc.edu/handretrieval/
+    authors:
+      - name: Matthew Hong
+        href: https://matthewh6.github.io/
+        star: true
+      - name: Anthony Liang
+        href: https://aliang8.github.io/
+        star: true
+      - name: Kevin Kim
+        href: https://www.linkedin.com/in/kevinjameskim
+      - name: Harshitha Rajaprakash
+        href: https://scholar.google.com/citations?user=Sqo9kfgAAAAJ&hl=en
+      - name: Jesse Thomason
+        href: https://jessethomason.com/
+        star: true
+      - name: Erdem Bıyık
+        href: https://ebiyik.github.io/
+        star: true
+      - me: true
+        star: true
+    conference:
+      name: "In Submission"
+    links:
+      - name: arXiv (coming soon)
+      - name: website
+        href: 'https://liralab.usc.edu/handretrieval/'
+    highlighted: true
+    nogif: false
+    description: We introduce HAND, a simple and time-efficient method for teaching robots manipulation tasks through human hand demonstrations.
   - name: rewind
     title:
       name: >-
@@ -26,7 +59,8 @@ papers:
     conference:
       name: "In Submission"
     links:
-      - name: arXiv (coming soon)
+      - name: arXiv
+        href: 'https://arxiv.org/abs/2505.10911'
       - name: website
         href: 'https://rewind-reward.github.io/'
     highlighted: true
@@ -488,7 +522,7 @@ papers:
       state-of-the-art hierarchical RL methods.
     nogif: true
     img2: false
-    highlighted: true
+    highlighted: false
   - name: cog
     title:
       name: >-
