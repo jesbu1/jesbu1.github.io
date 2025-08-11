@@ -1,4 +1,28 @@
 papers:
+  - name: bioengineering
+    title: 
+      name: >-
+        Unveiling Early Signs of Preclinical Alzheimer’s Disease Through ERP Analysis with Weighted Visibility Graphs and Ensemble Learning
+      link: https://www.mdpi.com/2306-5354/12/8/814
+    authors:
+      - name: Yongshuai Liu
+      - name: Jiangyi Xia
+      - name: Ziwen Kan
+      - me: true
+      - name: Sheela Toprani
+      - name: James B. Brewer
+      - name: Marta Kutas
+      - name: Xin Liu
+      - name: John Olichney
+    conference:
+      name: "Bioengineering 2025"
+    links:
+      - name: paper
+        href: https://www.mdpi.com/2306-5354/12/8/814
+    highlighted: false
+    nogif: true
+    description: >-
+      We present a framework that combines Weighted Visibility Graphs (WVG) and ensemble learning to detect preclinical Alzheimer’s disease (preAD) from EEG data. Using a word repetition EEG paradigm, we extract event-related potential (ERP) and oscillatory features from 40 elderly participants (20 preAD, 20 normal), transform them into WVG networks, and derive topological features. After feature selection and dimensionality reduction, we train machine learning classifiers and ensembles, achieving up to 92% accuracy in distinguishing preAD from normal subjects. Our approach enables early AD detection and reduces the amount of EEG data needed for accurate classification.
   - name: hand
     title:
       name: >-
@@ -58,7 +82,7 @@ papers:
         href: https://ebiyik.github.io/
       - me: true
     conference:
-      name: "In Submission; Best Paper Award at OOD Workshop @ RSS 2025, Best Paper Nominee at RoboReps Workshop @ RSS 2025"
+      name: "Oral @ CoRL 2025; 🏆 Best Paper Award at OOD Workshop @ RSS 2025, Best Paper Nominee at RoboReps Workshop @ RSS 2025"
     links:
       - name: arXiv
         href: https://arxiv.org/abs/2505.10911
