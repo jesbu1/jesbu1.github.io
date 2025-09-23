@@ -1,4 +1,40 @@
 papers:
+  - name: peek
+    title:
+      name: >-
+        PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies
+      link: https://peek-robot.github.io/
+    authors:
+      - me: true
+        star: true
+      - name: Marius Memmel
+        href: https://memmelma.github.io/
+        star: true
+      - name: Kevin Kim
+        href: https://minjunkevink.github.io/
+      - name: Dieter Fox
+        href: https://homes.cs.washington.edu/~fox/
+      - name: Jesse Thomason
+        href: https://jessethomason.com/
+      - name: Fabio Ramos
+        href: https://fabioramos.github.io/Home.html
+      - name: Erdem Bıyık
+        href: https://ebiyik.github.io/
+      - name: Abhishek Gupta
+        href: https://homes.cs.washington.edu/~abhgupta/
+        star: true
+      - name: Anqi Li
+        href: https://anqili.github.io/
+        star: true
+    conference:
+      name: "In Submission"
+    links:
+      - name: website
+        href: 'https://peek-robot.github.io/'
+    highlighted: true
+    nogif: false
+    description: >-
+      PEEK improves zero-shot generalization for robot manipulation by guiding policies on where to focus and what to do, using visual language models to provide interpretable cues.
   - name: bioengineering
     title: 
       name: >-
@@ -584,7 +620,7 @@ papers:
       Our hardest experimental setting involves composing four vision-based
       robotic skills in a row:  picking, placing, drawer opening, and grasping,
       where a +1/0 sparse reward is provided only on task completion.
-    highlighted: true
+    highlighted: false
   - name: carl
     title:
       name: >-
