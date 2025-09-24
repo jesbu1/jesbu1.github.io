@@ -36,7 +36,7 @@ papers:
     highlighted: true
     nogif: false
     description: >-
-      PEEK improves zero-shot generalization for robot manipulation by guiding policies on where to focus and what to do, using visual language models to provide interpretable cues.
+      PEEK improves zero-shot generalization for robot manipulation by guiding any image-based policy on **where** to focus and **what** to do using visual language models to provide interpretable cues.
   - name: bioengineering
     title: 
       name: >-
