@@ -1,4 +1,57 @@
 papers:
+  - name: robometer
+    title:
+      name: >-
+        Robometer: Scaling General-Purpose Robotic Reward Models via Trajectory Comparisons
+      link: https://robometer.github.io/
+    authors:
+      - name: Anthony Liang
+        href: https://aliang8.github.io/
+        star: true
+      - name: Yigit Korkmaz
+        star: true
+      - name: Jiahui Zhang
+        href: https://jiahui-3205.github.io/
+      - name: Minyoung Hwang
+        href: https://minyoung1005.github.io/
+      - name: Abrar Anwar
+        href: https://abraranwar.github.io/
+      - name: Sidhant Kaushik
+        href: https://www.linkedin.com/in/sidk99/
+      - name: Aditya Shah
+        href: https://www.linkedin.com/in/aditya0shah
+      - name: Alex S. Huang
+        href: https://www.linkedin.com/in/alexhuang1029/
+      - name: Luke Zettlemoyer
+        href: https://homes.cs.washington.edu/~lsz/
+      - name: Dieter Fox
+        href: https://homes.cs.washington.edu/~fox/
+      - name: Yu Xiang
+        href: https://yuxng.github.io/
+      - name: Anqi Li
+        href: https://anqili.github.io/
+      - name: Andreea Bobu
+        href: https://www.mit.edu/~abobu/
+      - name: Abhishek Gupta
+        href: https://homes.cs.washington.edu/~abhgupta/
+      - name: Stephen Tu
+        href: https://stephentu.github.io/
+        star: true
+      - name: Erdem Bıyık
+        href: https://ebiyik.github.io/
+        star: true
+      - me: true
+        star: true
+    conference:
+      name: "In Submission"
+    links:
+      - name: website
+        href: 'https://robometer.github.io/'
+    highlighted: true
+    nogif: true
+    description: >-
+      Robometer is a general-purpose, video-language-input, dense reward model trained on RBM-1M, a large-scale dataset of over 1M trajectories spanning 21 robot embodiments. It significantly improves robot learning across online RL, offline RL, model-based RL, failure detection, and data retrieval for imitation learning.
+
   - name: peek
     title:
       name: >-
