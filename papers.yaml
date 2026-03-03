@@ -48,7 +48,7 @@ papers:
       - name: website
         href: 'https://robometer.github.io/'
     highlighted: true
-    nogif: true
+    nogif: false
     description: >-
       Robometer is a general-purpose, video-language-input, dense reward model trained on RBM-1M, a large-scale dataset of over 1M trajectories spanning 21 robot embodiments. It significantly improves robot learning across online RL, offline RL, model-based RL, failure detection, and data retrieval for imitation learning.
 
