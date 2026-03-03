@@ -27,7 +27,7 @@ papers:
         href: https://anqili.github.io/
         star: true
     conference:
-      name: "In Submission"
+      name: "ICRA 2026"
     links:
       - name: arXiv
         href: https://arxiv.org/abs/2509.18282
@@ -86,7 +86,7 @@ papers:
       - me: true
         star: true
     conference:
-      name: "In Submission"
+      name: "ICRA 2026"
     links:
       - name: arXiv
         href: https://arxiv.org/abs/2505.20455
