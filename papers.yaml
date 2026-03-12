@@ -47,6 +47,8 @@ papers:
     links:
       - name: website
         href: 'https://robometer.github.io/'
+      - name: arxiv
+        href: https://arxiv.org/abs/2603.02115
     highlighted: true
     nogif: false
     description: >-
