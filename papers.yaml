@@ -60,12 +60,12 @@ papers:
         href: https://homes.cs.washington.edu/~abhgupta/
       - name: Stephen Tu
         href: https://stephentu.github.io/
-        star: true
+        star2: true
       - name: Erdem Bıyık
         href: https://ebiyik.github.io/
-        star: true
+        star2: true
       - me: true
-        star: true
+        star2: true
     conference:
       name: "RSS 2026"
     links:
@@ -101,10 +101,10 @@ papers:
         href: https://ebiyik.github.io/
       - name: Abhishek Gupta
         href: https://homes.cs.washington.edu/~abhgupta/
-        star: true
+        star2: true
       - name: Anqi Li
         href: https://anqili.github.io/
-        star: true
+        star2: true
     conference:
       name: "ICRA 2026"
     links:
@@ -158,12 +158,12 @@ papers:
         href: https://scholar.google.com/citations?user=Sqo9kfgAAAAJ&hl=en
       - name: Jesse Thomason
         href: https://jessethomason.com/
-        star: true
+        star2: true
       - name: Erdem Bıyık
         href: https://ebiyik.github.io/
-        star: true
+        star2: true
       - me: true
-        star: true
+        star2: true
     conference:
       name: "ICRA 2026"
     links:
@@ -237,13 +237,13 @@ papers:
         href: https://homes.cs.washington.edu/~fox/
       - name: Anqi Li
         href: https://anqili.github.io/
-        star: true
+        star2: true
       - name: Abhishek Gupta
         href: https://homes.cs.washington.edu/~abhgupta/
-        star: true
+        star2: true
       - name: Ankit Goyal
         href: https://imankgoyal.github.io/
-        star: true
+        star2: true
     conference:
       name: 'ICLR 2025'
     links:
