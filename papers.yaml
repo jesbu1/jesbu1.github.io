@@ -1,4 +1,28 @@
 papers:
+  - name: tmrl
+    title:
+      name: >-
+        TMRL: Context-Smoothed Pre-training Enables Efficient Policy Fine-tuning
+      link: https://matthewh6.github.io/timestep-modulated-rl/
+    authors:
+      - name: Matthew Hong
+        href: https://matthewh6.github.io/
+      - me: true
+      - name: Anusha Nagabandi
+        href: https://scholar.google.com/citations?user=DkUUhXEAAAAJ&hl=en
+      - name: Abhishek Gupta
+        href: https://homes.cs.washington.edu/~abhgupta/
+    conference:
+      name: "RSS 2026"
+    links:
+      - name: website
+        href: 'https://matthewh6.github.io/timestep-modulated-rl/'
+    highlighted: true
+    nogif: false
+    description: >-
+      We bridge robot pre-training and RL fine-tuning by pre-training with context-smoothed BC and fine-tuning with timestep-modulated RL.
+      Strong simulation results and near-perfect real WidowX success in under an hour from π0.
+
   - name: robometer
     title:
       name: >-
