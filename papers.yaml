@@ -43,7 +43,7 @@ papers:
       - me: true
         star: true
     conference:
-      name: "In Submission"
+      name: "RSS 2026"
     links:
       - name: website
         href: 'https://robometer.github.io/'
