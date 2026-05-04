@@ -2,7 +2,7 @@ papers:
   - name: ogpo
     title:
       name: >-
-        Off-policy Generative Policy Optimization
+        OGPO: Sample Efficient Full-Finetuning of Generative Control Policies
     authors:
       - name: Sarvesh Patil
         href: https://servo97.github.io/
