@@ -1,4 +1,52 @@
 papers:
+  - name: ogpo
+    title:
+      name: >-
+        Off-policy Generative Policy Optimization
+    authors:
+      - name: Sarvesh Patil
+        href: https://servo97.github.io/
+        star: true
+      - name: Mitsuhiko Nakamoto
+        href: https://nakamotoo.github.io/
+        star: true
+      - name: Manan Agarwal
+        href: https://mananag007.github.io/
+      - name: Shashwat Saxena
+      - me: true
+      - name: Giri Anantharaman
+        href: https://www.giriman.com/
+      - name: Cleah Winston
+        href: https://cleahwin.github.io/
+      - name: Chaoyi Pan
+        href: https://panchaoyi.com/
+      - name: Douglas Chen
+      - name: Nai-Chieh Huang
+        href: https://colder66.github.io/
+      - name: Zeynep Temel
+        href: https://www.ri.cmu.edu/ri-faculty/zeynep-temel/
+      - name: Oliver Kroemer
+        href: https://www.ri.cmu.edu/ri-faculty/oliver-kroemer/
+      - name: Abhishek Gupta
+        href: https://homes.cs.washington.edu/~abhgupta/
+      - name: Sergey Levine
+        href: http://people.eecs.berkeley.edu/~svlevine/
+      - name: Hongkai Dai
+        href: https://hongkai-dai.github.io/
+        star2: true
+      - name: Paarth Shah
+        href: https://www.paarthshah.me/
+        star2: true
+      - name: Max Simchowitz
+        href: https://msimchowitz.github.io/
+        star2: true
+    highlighted: true
+    conference:
+      name: "ICML 2026"
+    nogif: true
+    description: >-
+      OGPO is a sample-efficient algorithm for finetuning generative control policies (GCPs) that maintains off-policy critic networks to maximize data reuse and propagate policy gradients via a modified PPO objective. 
+      It achieves state-of-the-art performance on complex manipulation tasks and can fine-tune poorly-initialized behavior cloning policies to near full task-success with no expert data in the online replay buffer.
   - name: tmrl
     title:
       name: >-
