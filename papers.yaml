@@ -61,7 +61,7 @@ papers:
       - name: Abhishek Gupta
         href: https://homes.cs.washington.edu/~abhgupta/
     conference:
-      name: "RSS 2026"
+      name: "RSS 2026 <br> <oral>Oral Presentation</oral> at RL4IL Workshop at ICRA 2026"
     links:
       - name: website
         href: 'https://matthewh6.github.io/timestep-modulated-rl/'
@@ -115,7 +115,7 @@ papers:
       - me: true
         star2: true
     conference:
-      name: "RSS 2026"
+      name: "RSS 2026 <br> <oral>Oral Presentation</oral> at RL4IL Workshop at ICRA 2026"
     links:
       - name: website
         href: 'https://robometer.github.io/'
