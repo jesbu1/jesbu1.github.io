@@ -64,7 +64,9 @@ papers:
       name: "RSS 2026 <br> <oral>Oral Presentation</oral> at RL4IL Workshop at ICRA 2026"
     links:
       - name: website
-        href: 'https://matthewh6.github.io/timestep-modulated-rl/'
+        href: 'https://weirdlabuw.github.io/tmrl/'
+      - name: arxiv
+        href: https://arxiv.org/abs/2605.12236
     highlighted: true
     nogif: false
     description: >-
