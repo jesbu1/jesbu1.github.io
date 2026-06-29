@@ -47,10 +47,15 @@ papers:
     description: >-
       OGPO is a sample-efficient algorithm for finetuning generative control policies (GCPs) that maintains off-policy critic networks to maximize data reuse and propagate policy gradients via a modified PPO objective. 
       It achieves state-of-the-art performance on complex manipulation tasks and can fine-tune poorly-initialized behavior cloning policies to near full task-success with no expert data in the online replay buffer.
+    links:
+      - name: website
+        href: 'https://simchowitzlabpublic.github.io/ogpo-site/'
+      - name: arxiv
+        href: https://arxiv.org/abs/2605.03065
   - name: tmrl
     title:
       name: >-
-        TMRL: Context-Smoothed Pre-training Enables Efficient Policy Fine-tuning
+        TMRL: Diffusion Timestep-Modulated Pre-training Enables Exploration for Efficient Policy Fine-tuning
       link: https://matthewh6.github.io/timestep-modulated-rl/
     authors:
       - name: Matthew Hong
@@ -162,7 +167,7 @@ papers:
         href: https://arxiv.org/abs/2509.18282
       - name: website
         href: 'https://peek-robot.github.io/'
-    highlighted: true
+    highlighted: false
     nogif: false
     description: >-
       PEEK improves zero-shot generalization for robot manipulation by guiding any image-based policy on **where** to focus and **what** to do using visual language models to provide interpretable cues.
