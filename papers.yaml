@@ -323,7 +323,7 @@ papers:
         Anticipating Unintended Robot Behaviors with Side Effect Critics
     authors:
       - name: Ryan Lindeborg
-        href: 'https://www.ryanlindeborg.com/about/'
+        href: 'https://ryanlindeborg.com'
       - name: Richard Peng
       - name: Ayush Jain
       - me: true
@@ -334,7 +334,8 @@ papers:
     conference:
       name: >-
         <oral>Spotlight</oral> at Workshop on Rethinking What It Means to be "Safe" for Generalist Robots, 2026
-    nogif: true
+    nogif: false
+    mp4: true
     description: >-
       We introduce the concept of Side Effect Critics to anticipate and mitigate unintended robot behaviors when deploying learned policies in real-world environments.
     highlighted: false
