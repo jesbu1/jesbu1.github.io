@@ -316,6 +316,28 @@ papers:
     mp4: true
     description: We propose a Hierarchical VLA architecture, HAMSTER, which can enable robotic manipulation with semantic, visual, and geometric generalization after being trained on easy to collect, off-domain data. 
       This allows us to combine the benefits of imitation learning models, which require little in-domain robot data, with those of large VLA models that can generalize well.
+
+  - name: sideeffects
+    title:
+      name: >-
+        Anticipating Unintended Robot Behaviors with Side Effect Critics
+    authors:
+      - name: Ryan Lindeborg
+        href: 'https://www.ryanlindeborg.com/about/'
+      - name: Richard Peng
+      - name: Ayush Jain
+      - me: true
+      - name: Abrar Anwar
+        href: 'https://abraranwar.github.io/'
+      - name: Jesse Thomason
+        href: 'https://jessethomason.com/'
+    conference:
+      name: >-
+        <oral>Spotlight</oral> at Workshop on Rethinking What It Means to be "Safe" for Generalist Robots, 2026
+    nogif: true
+    description: >-
+      We introduce the concept of Side Effect Critics to anticipate and mitigate unintended robot behaviors when deploying learned policies in real-world environments.
+    highlighted: false
   - name: extract
     title:
       name: >-
