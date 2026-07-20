@@ -18,6 +18,9 @@ papers:
         <oral>Spotlight</oral> at Workshop on Rethinking What It Means to be "Safe" for Generalist Robots, 2026
     nogif: false
     mp4: true
+    links:
+      - name: paper
+        href: 'https://ryanlindeborg.com/papers/side_effect_critics.pdf'
     description: >-
       We introduce the concept of Side Effect Critics to anticipate and mitigate unintended robot behaviors when deploying learned policies in real-world environments.
     highlighted: false
