@@ -24,10 +24,14 @@
     function gif_start(image, gif) {
       document.getElementById(image).style.opacity = "1";
       document.getElementById(gif).style.opacity = "0";
+      var v = document.getElementById(image).querySelector('video');
+      if (v) { v.play(); }
     }
     function gif_stop(image, gif) {
       document.getElementById(image).style.opacity = "0";
       document.getElementById(gif).style.opacity = "1";
+      var v = document.getElementById(image).querySelector('video');
+      if (v) { v.pause(); v.currentTime = 0; }
     }
   </script>
 
@@ -226,7 +230,11 @@
           <div class="one">
             {{#unless nogif}}
             <div class="two" id='{{name}}_image', style="opacity: 0">
+              {{#if mp4}}
+              <video src='images/{{name}}_after.mp4' class="paper_img" muted loop playsinline></video>
+              {{else}}
               <img src='images/{{name}}_after.gif' class="paper_img">
+              {{/if}}
             </div>
             {{/unless}}
             {{#if img2}}

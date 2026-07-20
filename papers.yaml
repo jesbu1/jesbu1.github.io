@@ -74,6 +74,7 @@ papers:
         href: https://arxiv.org/abs/2605.12236
     highlighted: true
     nogif: false
+    mp4: true
     description: >-
       We bridge robot pre-training and RL fine-tuning by pre-training with context-smoothed BC and fine-tuning with timestep-modulated RL.
       Strong simulation results and near-perfect real WidowX success in under an hour from π0.
@@ -130,6 +131,7 @@ papers:
         href: https://arxiv.org/abs/2603.02115
     highlighted: true
     nogif: false
+    mp4: true
     description: >-
       Robometer is a general-purpose, video-language-input, dense reward model trained on RBM-1M, a large-scale dataset of over 1M trajectories spanning 21 robot embodiments. It significantly improves robot learning across online RL, offline RL, model-based RL, failure detection, and data retrieval for imitation learning.
 
@@ -169,6 +171,7 @@ papers:
         href: 'https://peek-robot.github.io/'
     highlighted: false
     nogif: false
+    mp4: true
     description: >-
       PEEK improves zero-shot generalization for robot manipulation by guiding any image-based policy on **where** to focus and **what** to do using visual language models to provide interpretable cues.
   - name: bioengineering
@@ -228,6 +231,7 @@ papers:
         href: 'https://liralab.usc.edu/handretrieval/'
     highlighted: true
     nogif: false
+    mp4: true
     description: We introduce HAND, a simple and time-efficient method for teaching robots manipulation tasks through human hand demonstrations.
   - name: rewind
     title:
@@ -262,6 +266,7 @@ papers:
         href: 'https://rewind-reward.github.io/'
     highlighted: true
     nogif: false
+    mp4: true
     description: ReWiND enables sample-efficient adaptation to new tasks by training a language-conditioned reward model and policy from a small set of demonstrations to learn new tasks without additional per-task demonstrations. We beat baselines by 2X in simulation and improve real-world pre-trained policies by 5X in just 1 hour.
 
   - name: hamster
@@ -308,6 +313,7 @@ papers:
         href: 'https://hamster-robot.github.io/'
     highlighted: true
     nogif: false
+    mp4: true
     description: We propose a Hierarchical VLA architecture, HAMSTER, which can enable robotic manipulation with semantic, visual, and geometric generalization after being trained on easy to collect, off-domain data. 
       This allows us to combine the benefits of imitation learning models, which require little in-domain robot data, with those of large VLA models that can generalize well.
   - name: extract
@@ -473,6 +479,7 @@ papers:
       demonstration or description, and show that our method can learn a variety
       of tasks from a single task specification.
     highlighted: true
+    mp4: true
   - name: boss
     title:
       name: 'Bootstrap Your Own Skills (BOSS): Learning to Solve New Tasks with LLM Guidance'
@@ -521,6 +528,7 @@ papers:
       process, BOSS builds a wide range of complex and useful behaviors from a
       basic set of primitive skills.
     highlighted: true
+    mp4: true
   - name: sprint
     title:
       name: 'SPRINT: Scalable Policy Pre-Training via Language Instruction Relabeling'
@@ -546,6 +554,7 @@ papers:
       set of skills through relabling instructions with LLMs and an offline RL
       chaining objective.
     highlighted: true
+    mp4: true
   - name: ml_vg
     title:
       name: >-
@@ -757,6 +766,7 @@ papers:
       robotic skills in a row:  picking, placing, drawer opening, and grasping,
       where a +1/0 sparse reward is provided only on task completion.
     highlighted: false
+    mp4: true
   - name: carl
     title:
       name: >-
