@@ -1,4 +1,39 @@
 papers:
+  - name: flexpi
+    title:
+      name: >-
+        Flex-π: A Multi-Stream World-Action Model with Compute Flexibility
+      link: https://flex-pi.github.io/
+    authors:
+      - name: Ge Yan
+        href: 'https://geyan21.github.io/'
+        star: true
+      - name: Jinghao Liu
+        href: 'https://jasonhistoria.github.io/'
+        star: true
+      - name: Yuzhi Fan
+        star: true
+      - name: Minwen Liao
+      - name: Lei Cai
+        href: 'https://www.leicai99.com/'
+      - me: true
+        star2: true
+      - name: Dieter Fox
+        href: 'https://homes.cs.washington.edu/~fox/'
+        star2: true
+    conference:
+      name: 'Preprint, 2026'
+    links:
+      - name: website
+        href: 'https://flex-pi.github.io/'
+      - name: arxiv
+        href: 'https://arxiv.org/abs/2608.10860'
+      - name: code
+        href: 'https://github.com/geyan21/flex-pi'
+    highlighted: true
+    mp4: true
+    description: >-
+      Flex-π is a 6B-parameter world-action model that jointly denoises RGB, 3D geometry, and object-centric semantics into a shared latent space. It achieves flexible inference modes with a single checkpoint, enabling speed–accuracy tradeoffs from 60ms action-only inference to 193ms full joint generation. Demonstrated on contact-rich, sub-millimeter precision bimanual manipulation tasks on a YAM workcell.
   - name: sideeffects
     title:
       name: >-
