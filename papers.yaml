@@ -480,12 +480,11 @@ papers:
     title:
       name: >-
         LiFT: Unsupervised Reinforcement Learning with Foundation Models as Teachers
-      link: 'https://gimme1dollar.github.io/lift/'
     authors:
       - name: Taewook Nam
         href: 'https://taewooknam.notion.site/Taewook-Nam-ae8a9ccb9ca54622b03b3e53541d6241'
       - name: Juyong Lee
-        href: 'https://gimme1dollar.github.io/'
+        href: 'https://jylee425.github.io/'
       - me: true
       - name: Sung Ju Hwang
         href: 'http://www.sungjuhwang.com/'
@@ -498,8 +497,6 @@ papers:
     links:
       - name: arXiv
         href: 'https://arxiv.org/abs/2312.08958'
-      - name: website
-        href: 'https://gimme1dollar.github.io/lift/'
     description: >-
       We propose LiFT (unsupervised Learning with Foundation model Teachers) framework 
       that leverages foundation models as teachers, guiding a reinforcement learning agent 
