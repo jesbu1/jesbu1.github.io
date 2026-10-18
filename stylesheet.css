@@ -246,6 +246,11 @@ b {
   padding-right: 0.5em;
 }
 
+/* Invited talks: keep a gap between the talk entry and its date on the right */
+.talks b {
+  padding-left: 1em;
+}
+
 .image-cropper {
   width: 250px;
   height: 250px;
