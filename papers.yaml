@@ -11,14 +11,15 @@ papers:
         star: true
       - name: Arjun Guru
         href: 'https://scholar.google.com/citations?user=fbvYwZcAAAAJ&hl=en'
-      - name: Zhanyi Sun
-        href: 'https://zhanyisun.github.io/'
       - name: Aditya Shah
         href: 'https://www.linkedin.com/in/aditya0shah'
+      - name: Chaoxiang Zhang
+      - name: Zhanyi Sun
+        href: 'https://zhanyisun.github.io/'
       - name: Abhishek Gupta
         href: 'https://homes.cs.washington.edu/~abhgupta/'
     conference:
-      name: 'CoRL 2026 Workshops: Pretrain to Adapt, R2RL, and Learn@Deploy'
+      name: 'CoRL 2026 Workshops: R2RL, Learn@Deploy, and Pretrain to Adapt <br> <oral>Spotlight</oral> at Learn@Deploy; Poster at Pretrain to Adapt'
     highlighted: false
     nogif: true
     description: >-
