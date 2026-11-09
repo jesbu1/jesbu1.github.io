@@ -52,6 +52,49 @@ papers:
     mp4: true
     description: >-
       VETO is a reward-supervised world model that verifies proposed actions before they are reinforced, fitting latent dynamics and rewards with supervised regression to rule out poor proposals early. It accelerates RL fine-tuning in simulation and improves pre-trained policies on real robots, including 55% vs. 25% unguided success on a bimanual pencil-case task and 85% vs. 50% for Critic-BoN on a Franka dish-rack task.
+  - name: dna
+    title:
+      name: >-
+        D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models
+    authors:
+      - name: Marius Memmel
+        href: 'https://memmelma.github.io/'
+      - name: Shawn Yin
+        href: 'https://xheawn.github.io/'
+        star: true
+      - name: Urvi Rutia
+        href: 'https://www.linkedin.com/in/urvi-rutia'
+        star: true
+      - name: Angad Wadhwa
+        href: 'https://www.linkedin.com/in/angadw/'
+        star: true
+      - name: Eldon Li
+      - name: Gavin Angeloff
+        href: 'https://www.linkedin.com/in/gavin-angeloff-3164452ba/'
+      - name: Ankit Goyal
+        href: 'https://imankgoyal.github.io/'
+      - me: true
+      - name: Dieter Fox
+        href: 'https://homes.cs.washington.edu/~fox/'
+      - name: Fabio Ramos
+        href: 'https://fabioramos.github.io/Home.html'
+      - name: Anqi Li
+        href: 'https://anqili.github.io/'
+        star2: true
+      - name: Abhishek Gupta
+        href: 'https://homes.cs.washington.edu/~abhgupta/'
+        star2: true
+    conference:
+      name: "<oral>Oral Presentation</oral> at R2RL Workshop at CoRL 2026"
+    links:
+      - name: arXiv
+        href: https://arxiv.org/abs/2611.03622
+      - name: website
+        href: 'https://weirdlabuw.github.io/dna/'
+    highlighted: true
+    mp4: true
+    description: >-
+      D&A is a zero-shot VLM reward model that decouples progress estimation into two stages: a Describer narrates what happened in the video without seeing the instruction, then an Assessor scores that description against explicit success criteria to produce per-frame rewards and feedback. Describing before assessing avoids the confirmation bias and hallucinated progress of existing zero-shot VLM reward models, matching or surpassing post-trained reward models without any real-world training data. Its rewards drive real-world RL, raising π0.5 from 10% to 100% success in about 90 minutes of online RL.
   - name: flexpi
     title:
       name: >-
